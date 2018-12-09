@@ -1,0 +1,9 @@
+2018-11-20T10:56:14+00:00 NOTICE plugin.activation.single_site :: Installing Mailchimp Tables For :: http://localhost/RotekitaArtDev/RotekitaArt
+2018-11-20T10:56:15+00:00 NOTICE plugin.activation.single_site :: Installed Mailchimp Tables For :: http://localhost/RotekitaArtDev/RotekitaArt
+2018-11-20T22:30:02+00:00 NOTICE sync.started :: Starting Sync :: Tue, Nov 20, 2018 8:30 PM
+2018-11-20T22:30:13+00:00 NOTICE product_sync.success :: addStoreProduct :: #306
+2018-11-20T22:30:14+00:00 NOTICE product_sync.success :: addStoreProduct :: #314
+2018-11-20T22:30:15+00:00 NOTICE product_sync.success :: addStoreProduct :: #384
+2018-11-20T22:30:17+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2018-11-20T22:30:19+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2018-11-20T22:30:19+00:00 NOTICE sync.completed :: Finished Sync :: Tue, Nov 20, 2018 8:30 PM

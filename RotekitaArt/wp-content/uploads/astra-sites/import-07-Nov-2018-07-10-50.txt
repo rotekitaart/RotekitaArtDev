@@ -1,0 +1,725 @@
+
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+MySQL version 		: 5.5.5
+PHP Version 		: 7.2.11
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 2 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: Asia/Jerusalem
+
+-----
+
+Importing Started! - 07:21:48 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+
+1. Imported "Customizer Settings"  - 07:21:52 UTC
+
+---
+
+2. Importing "XML"  - 07:22:00 UTC
+Imported "Uncategorized" (category)
+Term 1 remapped to 16
+Imported "Top Navigation" (nav_menu)
+Term 19 remapped to 17
+Failed to import astra-site-page-builder Beaver Builder
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Brizy
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Elementor
+טקסונומיה לא תקינה.
+Failed to import astra-sites-type Free
+טקסונומיה לא תקינה.
+Imported "page" (elementor_library_type)
+Term 23 remapped to 18
+Failed to import astra-sites-type Premium
+טקסונומיה לא תקינה.
+Imported "section" (elementor_library_type)
+Term 24 remapped to 19
+Imported "Uncategorized" (product_cat)
+Term 25 remapped to 20
+Imported "Abstract" (product_cat)
+Term 22 remapped to 21
+Imported "Floral" (product_cat)
+Term 21 remapped to 22
+Imported "Scenery" (product_cat)
+Term 20 remapped to 23
+Imported "Home" (עמוד)
+Post 9 remapped to 9
+Imported "About Me" (עמוד)
+Post 10 remapped to 10
+Imported "Contact" (עמוד)
+Post 12 remapped to 12
+Imported "" (פריט תפריט)
+Post 16 remapped to 16
+Processing menu item post_type
+Menu item 10 mapped to 10
+Imported "" (פריט תפריט)
+Post 18 remapped to 18
+Processing menu item post_type
+Menu item 9 mapped to 9
+Imported "artist" (מדיה)
+Post 23 remapped to 23
+Imported "signature" (מדיה)
+Post 24 remapped to 24
+Imported "Eiffel Tower" (מוצר)
+Post 25 remapped to 25
+Imported "painting-flower-1" (מדיה)
+Post 26 remapped to 26
+Imported "painting-flower-2" (מדיה)
+Post 27 remapped to 27
+Imported "painting-scene-1" (מדיה)
+Post 28 remapped to 28
+Imported "painting-scene-2" (מדיה)
+Post 29 remapped to 29
+Imported "Waterfall" (מוצר)
+Post 33 remapped to 33
+Imported "Red Flowers" (מוצר)
+Post 34 remapped to 34
+Imported "Orange Flowers" (מוצר)
+Post 38 remapped to 38
+Imported "painting-flower-3" (מדיה)
+Post 39 remapped to 39
+Imported "painting-flower-4" (מדיה)
+Post 40 remapped to 40
+Imported "painting-scene-3" (מדיה)
+Post 41 remapped to 41
+Imported "painting-abstract-1" (מדיה)
+Post 42 remapped to 42
+Imported "painting-abstract-2" (מדיה)
+Post 43 remapped to 43
+Imported "painting-abstract-3" (מדיה)
+Post 44 remapped to 44
+Imported "Bird Feather Closeup" (מוצר)
+Post 46 remapped to 46
+Imported "Water Color Bleed" (מוצר)
+Post 47 remapped to 47
+Imported "Colorful Textures" (מוצר)
+Post 49 remapped to 49
+Imported "Flowers and Birds" (מוצר)
+Post 50 remapped to 50
+Imported "Cart" (עמוד)
+Post 51 remapped to 51
+Imported "Checkout" (עמוד)
+Post 52 remapped to 52
+Imported "My account" (עמוד)
+Post 53 remapped to 53
+Imported "Boatmans" (מוצר)
+Post 54 remapped to 54
+Imported "astra" (CSS מותאם)
+Post 68 remapped to 68
+Imported "artist-about-free-img" (מדיה)
+Post 70 remapped to 70
+Imported "artist-about-left-free-img" (מדיה)
+Post 82 remapped to 82
+Imported "content" (טמפלט)
+Post 85 remapped to 85
+Imported "Social" (טמפלט)
+Post 91 remapped to 91
+Imported "Paintings" (עמוד)
+Post 96 remapped to 96
+Imported "Buy Paintings" (פריט תפריט)
+Post 97 remapped to 97
+Processing menu item post_type
+Menu item 96 mapped to 96
+Imported "cert-1-free-img" (מדיה)
+Post 109 remapped to 109
+Imported "cert-2-free-img" (מדיה)
+Post 110 remapped to 110
+Imported "cert-3-free-img" (מדיה)
+Post 111 remapped to 111
+Imported "cert-4-free-img" (מדיה)
+Post 112 remapped to 112
+Imported "cert-5-free-img" (מדיה)
+Post 113 remapped to 113
+Imported "cert-6-free-img" (מדיה)
+Post 114 remapped to 114
+Imported "cert-7-free-img" (מדיה)
+Post 115 remapped to 115
+Imported "cert-8-free-img" (מדיה)
+Post 116 remapped to 116
+Imported "cert-9-free-img" (מדיה)
+Post 117 remapped to 117
+Imported "" (פריט תפריט)
+Post 132 remapped to 132
+Processing menu item post_type
+Menu item 12 mapped to 12
+Imported "" (פריט תפריט)
+Post 145 remapped to 145
+Processing menu item taxonomy
+Menu item 20 mapped to 23
+Imported "" (פריט תפריט)
+Post 146 remapped to 146
+Processing menu item taxonomy
+Menu item 21 mapped to 22
+Imported "" (פריט תפריט)
+Post 147 remapped to 147
+Processing menu item taxonomy
+Menu item 22 mapped to 21
+Imported "artist-logo@2x-free-img" (מדיה)
+Post 149 remapped to 149
+Imported "artist-logo-free-img" (מדיה)
+Post 150 remapped to 150
+Imported "favicon-free-img" (מדיה)
+Post 151 remapped to 151
+Imported "Flower Bed" (מוצר)
+Post 159 remapped to 159
+Imported "painting-abstract-floral-1" (מדיה)
+Post 160 remapped to 160
+Imported "artist-astra-facebook-yoast-free-img" (מדיה)
+Post 165 remapped to 165
+Running post-processing for post 9
+Could not find the author for "Home" (post #9)
+Post 9 was imported with author "harshadd", but could not be found
+Post 9 was marked for post-processing, but none was required.
+Running post-processing for post 10
+Could not find the author for "About Me" (post #10)
+Post 10 was imported with author "harshadd", but could not be found
+Running post-processing for post 12
+Could not find the author for "Contact" (post #12)
+Post 12 was imported with author "harshadd", but could not be found
+Post 12 was marked for post-processing, but none was required.
+Running post-processing for post 16
+Could not find the author for "" (post #16)
+Post 16 was imported with author "harshadd", but could not be found
+Post 16 was marked for post-processing, but none was required.
+Running post-processing for post 18
+Could not find the author for "" (post #18)
+Post 18 was imported with author "harshadd", but could not be found
+Post 18 was marked for post-processing, but none was required.
+Running post-processing for post 23
+Could not find the author for "artist" (post #23)
+Post 23 was imported with author "harshadd", but could not be found
+Post 23 was marked for post-processing, but none was required.
+Running post-processing for post 24
+Could not find the author for "signature" (post #24)
+Post 24 was imported with author "harshadd", but could not be found
+Post 24 was marked for post-processing, but none was required.
+Running post-processing for post 25
+Could not find the author for "Eiffel Tower" (post #25)
+Post 25 was imported with author "harshadd", but could not be found
+Post 25 was marked for post-processing, but none was required.
+Running post-processing for post 26
+Could not find the author for "painting-flower-1" (post #26)
+Post 26 was imported with author "harshadd", but could not be found
+Post 26 was marked for post-processing, but none was required.
+Running post-processing for post 27
+Could not find the author for "painting-flower-2" (post #27)
+Post 27 was imported with author "harshadd", but could not be found
+Post 27 was marked for post-processing, but none was required.
+Running post-processing for post 28
+Could not find the author for "painting-scene-1" (post #28)
+Post 28 was imported with author "harshadd", but could not be found
+Post 28 was marked for post-processing, but none was required.
+Running post-processing for post 29
+Could not find the author for "painting-scene-2" (post #29)
+Post 29 was imported with author "harshadd", but could not be found
+Post 29 was marked for post-processing, but none was required.
+Running post-processing for post 33
+Could not find the author for "Waterfall" (post #33)
+Post 33 was imported with author "harshadd", but could not be found
+Post 33 was marked for post-processing, but none was required.
+Running post-processing for post 34
+Could not find the author for "Red Flowers" (post #34)
+Post 34 was imported with author "harshadd", but could not be found
+Post 34 was marked for post-processing, but none was required.
+Running post-processing for post 38
+Could not find the author for "Orange Flowers" (post #38)
+Post 38 was imported with author "harshadd", but could not be found
+Post 38 was marked for post-processing, but none was required.
+Running post-processing for post 39
+Could not find the author for "painting-flower-3" (post #39)
+Post 39 was imported with author "harshadd", but could not be found
+Post 39 was marked for post-processing, but none was required.
+Running post-processing for post 40
+Could not find the author for "painting-flower-4" (post #40)
+Post 40 was imported with author "harshadd", but could not be found
+Post 40 was marked for post-processing, but none was required.
+Running post-processing for post 41
+Could not find the author for "painting-scene-3" (post #41)
+Post 41 was imported with author "harshadd", but could not be found
+Post 41 was marked for post-processing, but none was required.
+Running post-processing for post 42
+Could not find the author for "painting-abstract-1" (post #42)
+Post 42 was imported with author "harshadd", but could not be found
+Post 42 was marked for post-processing, but none was required.
+Running post-processing for post 43
+Could not find the author for "painting-abstract-2" (post #43)
+Post 43 was imported with author "harshadd", but could not be found
+Post 43 was marked for post-processing, but none was required.
+Running post-processing for post 44
+Could not find the author for "painting-abstract-3" (post #44)
+Post 44 was imported with author "harshadd", but could not be found
+Post 44 was marked for post-processing, but none was required.
+Running post-processing for post 46
+Could not find the author for "Bird Feather Closeup" (post #46)
+Post 46 was imported with author "harshadd", but could not be found
+Post 46 was marked for post-processing, but none was required.
+Running post-processing for post 47
+Could not find the author for "Water Color Bleed" (post #47)
+Post 47 was imported with author "harshadd", but could not be found
+Post 47 was marked for post-processing, but none was required.
+Running post-processing for post 49
+Could not find the author for "Colorful Textures" (post #49)
+Post 49 was imported with author "harshadd", but could not be found
+Post 49 was marked for post-processing, but none was required.
+Running post-processing for post 50
+Could not find the author for "Flowers and Birds" (post #50)
+Post 50 was imported with author "harshadd", but could not be found
+Post 50 was marked for post-processing, but none was required.
+Running post-processing for post 51
+Could not find the author for "Cart" (post #51)
+Post 51 was imported with author "brainstormforce", but could not be found
+Post 51 was marked for post-processing, but none was required.
+Running post-processing for post 52
+Could not find the author for "Checkout" (post #52)
+Post 52 was imported with author "brainstormforce", but could not be found
+Post 52 was marked for post-processing, but none was required.
+Running post-processing for post 53
+Could not find the author for "My account" (post #53)
+Post 53 was imported with author "brainstormforce", but could not be found
+Post 53 was marked for post-processing, but none was required.
+Running post-processing for post 54
+Could not find the author for "Boatmans" (post #54)
+Post 54 was imported with author "harshadd", but could not be found
+Post 54 was marked for post-processing, but none was required.
+Running post-processing for post 68
+Could not find the author for "astra" (post #68)
+Post 68 was imported with author "harshadd", but could not be found
+Post 68 was marked for post-processing, but none was required.
+Running post-processing for post 70
+Could not find the author for "artist-about-free-img" (post #70)
+Post 70 was imported with author "harshadd", but could not be found
+Post 70 was marked for post-processing, but none was required.
+Running post-processing for post 82
+Could not find the author for "artist-about-left-free-img" (post #82)
+Post 82 was imported with author "harshadd", but could not be found
+Post 82 was marked for post-processing, but none was required.
+Running post-processing for post 85
+Could not find the author for "content" (post #85)
+Post 85 was imported with author "harshadd", but could not be found
+Running post-processing for post 91
+Could not find the author for "Social" (post #91)
+Post 91 was imported with author "harshadd", but could not be found
+Post 91 was marked for post-processing, but none was required.
+Running post-processing for post 96
+Could not find the author for "Paintings" (post #96)
+Post 96 was imported with author "harshadd", but could not be found
+Post 96 was marked for post-processing, but none was required.
+Running post-processing for post 97
+Could not find the author for "Buy Paintings" (post #97)
+Post 97 was imported with author "harshadd", but could not be found
+Post 97 was marked for post-processing, but none was required.
+Running post-processing for post 109
+Could not find the author for "cert-1-free-img" (post #109)
+Post 109 was imported with author "harshadd", but could not be found
+Post 109 was marked for post-processing, but none was required.
+Running post-processing for post 110
+Could not find the author for "cert-2-free-img" (post #110)
+Post 110 was imported with author "harshadd", but could not be found
+Post 110 was marked for post-processing, but none was required.
+Running post-processing for post 111
+Could not find the author for "cert-3-free-img" (post #111)
+Post 111 was imported with author "harshadd", but could not be found
+Post 111 was marked for post-processing, but none was required.
+Running post-processing for post 112
+Could not find the author for "cert-4-free-img" (post #112)
+Post 112 was imported with author "harshadd", but could not be found
+Post 112 was marked for post-processing, but none was required.
+Running post-processing for post 113
+Could not find the author for "cert-5-free-img" (post #113)
+Post 113 was imported with author "harshadd", but could not be found
+Post 113 was marked for post-processing, but none was required.
+Running post-processing for post 114
+Could not find the author for "cert-6-free-img" (post #114)
+Post 114 was imported with author "harshadd", but could not be found
+Post 114 was marked for post-processing, but none was required.
+Running post-processing for post 115
+Could not find the author for "cert-7-free-img" (post #115)
+Post 115 was imported with author "harshadd", but could not be found
+Post 115 was marked for post-processing, but none was required.
+Running post-processing for post 116
+Could not find the author for "cert-8-free-img" (post #116)
+Post 116 was imported with author "harshadd", but could not be found
+Post 116 was marked for post-processing, but none was required.
+Running post-processing for post 117
+Could not find the author for "cert-9-free-img" (post #117)
+Post 117 was imported with author "harshadd", but could not be found
+Post 117 was marked for post-processing, but none was required.
+Running post-processing for post 132
+Could not find the author for "" (post #132)
+Post 132 was imported with author "sujay", but could not be found
+Post 132 was marked for post-processing, but none was required.
+Running post-processing for post 145
+Could not find the author for "" (post #145)
+Post 145 was imported with author "harshadd", but could not be found
+Post 145 was marked for post-processing, but none was required.
+Running post-processing for post 146
+Could not find the author for "" (post #146)
+Post 146 was imported with author "harshadd", but could not be found
+Post 146 was marked for post-processing, but none was required.
+Running post-processing for post 147
+Could not find the author for "" (post #147)
+Post 147 was imported with author "harshadd", but could not be found
+Post 147 was marked for post-processing, but none was required.
+Running post-processing for post 149
+Could not find the author for "artist-logo@2x-free-img" (post #149)
+Post 149 was imported with author "harshadd", but could not be found
+Post 149 was marked for post-processing, but none was required.
+Running post-processing for post 150
+Could not find the author for "artist-logo-free-img" (post #150)
+Post 150 was imported with author "harshadd", but could not be found
+Post 150 was marked for post-processing, but none was required.
+Running post-processing for post 151
+Could not find the author for "favicon-free-img" (post #151)
+Post 151 was imported with author "harshadd", but could not be found
+Post 151 was marked for post-processing, but none was required.
+Running post-processing for post 159
+Could not find the author for "Flower Bed" (post #159)
+Post 159 was imported with author "harshadd", but could not be found
+Post 159 was marked for post-processing, but none was required.
+Running post-processing for post 160
+Could not find the author for "painting-abstract-floral-1" (post #160)
+Post 160 was imported with author "harshadd", but could not be found
+Post 160 was marked for post-processing, but none was required.
+Running post-processing for post 165
+Could not find the author for "artist-astra-facebook-yoast-free-img" (post #165)
+Post 165 was imported with author "harshadd", but could not be found
+Post 165 was marked for post-processing, but none was required.
+
+---
+
+3. Imported "Site Options"  - 07:26:11 UTC
+
+---
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+MySQL version 		: 5.5.5
+PHP Version 		: 7.2.11
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 2 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: Asia/Jerusalem
+
+-----
+
+Importing Started! - 07:33:48 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+
+1. Imported "Customizer Settings"  - 07:33:53 UTC
+
+---
+
+2. Importing "XML"  - 07:34:00 UTC
+Failed to import astra-site-page-builder Beaver Builder
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Brizy
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Elementor
+טקסונומיה לא תקינה.
+Failed to import astra-sites-type Free
+טקסונומיה לא תקינה.
+Failed to import astra-sites-type Premium
+טקסונומיה לא תקינה.
+עמוד "Home" already exists.
+עמוד "About Me" already exists.
+עמוד "Contact" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+מדיה "artist" already exists.
+מדיה "signature" already exists.
+Imported "Eiffel Tower" (מוצר)
+Post 25 remapped to 173
+מדיה "painting-flower-1" already exists.
+מדיה "painting-flower-2" already exists.
+מדיה "painting-scene-1" already exists.
+מדיה "painting-scene-2" already exists.
+Imported "Waterfall" (מוצר)
+Post 33 remapped to 174
+Imported "Red Flowers" (מוצר)
+Post 34 remapped to 175
+Imported "Orange Flowers" (מוצר)
+Post 38 remapped to 176
+מדיה "painting-flower-3" already exists.
+מדיה "painting-flower-4" already exists.
+מדיה "painting-scene-3" already exists.
+מדיה "painting-abstract-1" already exists.
+מדיה "painting-abstract-2" already exists.
+מדיה "painting-abstract-3" already exists.
+Imported "Bird Feather Closeup" (מוצר)
+Post 46 remapped to 177
+Imported "Water Color Bleed" (מוצר)
+Post 47 remapped to 178
+Imported "Colorful Textures" (מוצר)
+Post 49 remapped to 179
+Imported "Flowers and Birds" (מוצר)
+Post 50 remapped to 180
+עמוד "Cart" already exists.
+עמוד "Checkout" already exists.
+עמוד "My account" already exists.
+Imported "Boatmans" (מוצר)
+Post 54 remapped to 181
+CSS מותאם "astra" already exists.
+מדיה "artist-about-free-img" already exists.
+מדיה "artist-about-left-free-img" already exists.
+טמפלט "content" already exists.
+טמפלט "Social" already exists.
+עמוד "Paintings" already exists.
+פריט תפריט "Buy Paintings" already exists.
+מדיה "cert-1-free-img" already exists.
+מדיה "cert-2-free-img" already exists.
+מדיה "cert-3-free-img" already exists.
+מדיה "cert-4-free-img" already exists.
+מדיה "cert-5-free-img" already exists.
+מדיה "cert-6-free-img" already exists.
+מדיה "cert-7-free-img" already exists.
+מדיה "cert-8-free-img" already exists.
+מדיה "cert-9-free-img" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+מדיה "artist-logo@2x-free-img" already exists.
+מדיה "artist-logo-free-img" already exists.
+מדיה "favicon-free-img" already exists.
+Imported "Flower Bed" (מוצר)
+Post 159 remapped to 182
+מדיה "painting-abstract-floral-1" already exists.
+מדיה "artist-astra-facebook-yoast-free-img" already exists.
+Running post-processing for post 173
+Could not find the author for "Eiffel Tower" (post #173)
+Post 173 was imported with author "harshadd", but could not be found
+Post 173 was marked for post-processing, but none was required.
+Running post-processing for post 174
+Could not find the author for "Waterfall" (post #174)
+Post 174 was imported with author "harshadd", but could not be found
+Post 174 was marked for post-processing, but none was required.
+Running post-processing for post 175
+Could not find the author for "Red Flowers" (post #175)
+Post 175 was imported with author "harshadd", but could not be found
+Post 175 was marked for post-processing, but none was required.
+Running post-processing for post 176
+Could not find the author for "Orange Flowers" (post #176)
+Post 176 was imported with author "harshadd", but could not be found
+Post 176 was marked for post-processing, but none was required.
+Running post-processing for post 177
+Could not find the author for "Bird Feather Closeup" (post #177)
+Post 177 was imported with author "harshadd", but could not be found
+Post 177 was marked for post-processing, but none was required.
+Running post-processing for post 178
+Could not find the author for "Water Color Bleed" (post #178)
+Post 178 was imported with author "harshadd", but could not be found
+Post 178 was marked for post-processing, but none was required.
+Running post-processing for post 179
+Could not find the author for "Colorful Textures" (post #179)
+Post 179 was imported with author "harshadd", but could not be found
+Post 179 was marked for post-processing, but none was required.
+Running post-processing for post 180
+Could not find the author for "Flowers and Birds" (post #180)
+Post 180 was imported with author "harshadd", but could not be found
+Post 180 was marked for post-processing, but none was required.
+Running post-processing for post 181
+Could not find the author for "Boatmans" (post #181)
+Post 181 was imported with author "harshadd", but could not be found
+Post 181 was marked for post-processing, but none was required.
+Running post-processing for post 182
+Could not find the author for "Flower Bed" (post #182)
+Post 182 was imported with author "harshadd", but could not be found
+Post 182 was marked for post-processing, but none was required.
+
+---
+
+3. Imported "Site Options"  - 07:34:17 UTC
+
+---
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+MySQL version 		: 5.5.5
+PHP Version 		: 7.2.11
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 300
+Max Upload Size 	: 2 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: Asia/Jerusalem
+
+-----
+
+Importing Started! - 07:49:40 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+
+1. Imported "Customizer Settings"  - 07:49:45 UTC
+
+---
+
+2. Importing "XML"  - 07:49:50 UTC
+Failed to import astra-site-page-builder Beaver Builder
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Brizy
+טקסונומיה לא תקינה.
+Failed to import astra-site-page-builder Elementor
+טקסונומיה לא תקינה.
+Failed to import astra-sites-type Free
+טקסונומיה לא תקינה.
+Failed to import astra-sites-type Premium
+טקסונומיה לא תקינה.
+עמוד "Home" already exists.
+עמוד "About Me" already exists.
+עמוד "Contact" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+מדיה "artist" already exists.
+מדיה "signature" already exists.
+Imported "Eiffel Tower" (מוצר)
+Post 25 remapped to 187
+מדיה "painting-flower-1" already exists.
+מדיה "painting-flower-2" already exists.
+מדיה "painting-scene-1" already exists.
+מדיה "painting-scene-2" already exists.
+Imported "Waterfall" (מוצר)
+Post 33 remapped to 188
+Imported "Red Flowers" (מוצר)
+Post 34 remapped to 189
+Imported "Orange Flowers" (מוצר)
+Post 38 remapped to 190
+מדיה "painting-flower-3" already exists.
+מדיה "painting-flower-4" already exists.
+מדיה "painting-scene-3" already exists.
+מדיה "painting-abstract-1" already exists.
+מדיה "painting-abstract-2" already exists.
+מדיה "painting-abstract-3" already exists.
+Imported "Bird Feather Closeup" (מוצר)
+Post 46 remapped to 191
+Imported "Water Color Bleed" (מוצר)
+Post 47 remapped to 192
+Imported "Colorful Textures" (מוצר)
+Post 49 remapped to 193
+Imported "Flowers and Birds" (מוצר)
+Post 50 remapped to 194
+עמוד "Cart" already exists.
+עמוד "Checkout" already exists.
+עמוד "My account" already exists.
+Imported "Boatmans" (מוצר)
+Post 54 remapped to 195
+CSS מותאם "astra" already exists.
+מדיה "artist-about-free-img" already exists.
+מדיה "artist-about-left-free-img" already exists.
+טמפלט "content" already exists.
+טמפלט "Social" already exists.
+עמוד "Paintings" already exists.
+פריט תפריט "Buy Paintings" already exists.
+מדיה "cert-1-free-img" already exists.
+מדיה "cert-2-free-img" already exists.
+מדיה "cert-3-free-img" already exists.
+מדיה "cert-4-free-img" already exists.
+מדיה "cert-5-free-img" already exists.
+מדיה "cert-6-free-img" already exists.
+מדיה "cert-7-free-img" already exists.
+מדיה "cert-8-free-img" already exists.
+מדיה "cert-9-free-img" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+פריט תפריט "" already exists.
+מדיה "artist-logo@2x-free-img" already exists.
+מדיה "artist-logo-free-img" already exists.
+מדיה "favicon-free-img" already exists.
+Imported "Flower Bed" (מוצר)
+Post 159 remapped to 196
+מדיה "painting-abstract-floral-1" already exists.
+מדיה "artist-astra-facebook-yoast-free-img" already exists.
+Running post-processing for post 187
+Could not find the author for "Eiffel Tower" (post #187)
+Post 187 was imported with author "harshadd", but could not be found
+Post 187 was marked for post-processing, but none was required.
+Running post-processing for post 188
+Could not find the author for "Waterfall" (post #188)
+Post 188 was imported with author "harshadd", but could not be found
+Post 188 was marked for post-processing, but none was required.
+Running post-processing for post 189
+Could not find the author for "Red Flowers" (post #189)
+Post 189 was imported with author "harshadd", but could not be found
+Post 189 was marked for post-processing, but none was required.
+Running post-processing for post 190
+Could not find the author for "Orange Flowers" (post #190)
+Post 190 was imported with author "harshadd", but could not be found
+Post 190 was marked for post-processing, but none was required.
+Running post-processing for post 191
+Could not find the author for "Bird Feather Closeup" (post #191)
+Post 191 was imported with author "harshadd", but could not be found
+Post 191 was marked for post-processing, but none was required.
+Running post-processing for post 192
+Could not find the author for "Water Color Bleed" (post #192)
+Post 192 was imported with author "harshadd", but could not be found
+Post 192 was marked for post-processing, but none was required.
+Running post-processing for post 193
+Could not find the author for "Colorful Textures" (post #193)
+Post 193 was imported with author "harshadd", but could not be found
+Post 193 was marked for post-processing, but none was required.
+Running post-processing for post 194
+Could not find the author for "Flowers and Birds" (post #194)
+Post 194 was imported with author "harshadd", but could not be found
+Post 194 was marked for post-processing, but none was required.
+Running post-processing for post 195
+Could not find the author for "Boatmans" (post #195)
+Post 195 was imported with author "harshadd", but could not be found
+Post 195 was marked for post-processing, but none was required.
+Running post-processing for post 196
+Could not find the author for "Flower Bed" (post #196)
+Post 196 was imported with author "harshadd", but could not be found
+Post 196 was marked for post-processing, but none was required.
+
+---
+
+3. Imported "Site Options"  - 07:50:05 UTC
+
+---
+
+4. Importing "Widgets"  - 07:50:40 UTC
+Sidebar: sidebar-1
+Widget: "חיפוש" - Widget already exists
+Widget: "פוסטים אחרונים" - Widget already exists
+Widget: "תגובות אחרונות" - Widget already exists
+Widget: "ארכיון" - Widget already exists
+Widget: "קטגוריות" - Widget already exists
+Widget: "כלים" - Widget already exists
+Widget: "חיפוש המוצר" - Imported
+Widget: "מוצרים שנצפו לאחרונה" - Imported
+Sidebar: astra-woo-shop-sidebar
+Widget: "קטגוריות מוצרים" - Imported
+Widget: "מוצרים שנצפו לאחרונה" - Imported
+
+---
+
+Import Complete!  - 07:50:45 UTC

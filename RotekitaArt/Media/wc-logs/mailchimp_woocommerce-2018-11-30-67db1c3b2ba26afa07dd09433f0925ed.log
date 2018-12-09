@@ -1,0 +1,7 @@
+2018-11-30T13:31:51+00:00 NOTICE http_worker_lock :: HTTP worker lock needed to be deleted to initiate the queue.
+2018-11-30T13:31:52+00:00 NOTICE product_submit.success :: addStoreProduct :: #384
+2018-11-30T14:04:56+00:00 NOTICE http_worker_lock :: HTTP worker lock needed to be deleted to initiate the queue.
+2018-11-30T14:04:57+00:00 NOTICE product_submit.success :: addStoreProduct :: #384
+2018-11-30T14:04:57+00:00 NOTICE product_submit.error :: addStoreProduct :: #384 :: We were unable to process the request. A product with the provided ID already exists in the account. on 1498 in C:\xampp\htdocs\RotekitaArtDev\RotekitaArt\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2018-11-30T14:05:38+00:00 NOTICE product_submit.success :: addStoreProduct :: #384
+2018-11-30T14:07:44+00:00 NOTICE product_submit.success :: addStoreProduct :: #384

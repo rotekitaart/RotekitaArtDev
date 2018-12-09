@@ -1,0 +1,175 @@
+/*
+Theme Name: Astra Child
+Theme URI: http://localhost/RotekitaArtDev/RotekitaArt/
+Description: This is a child theme of 2018
+Author URI: http://RotekitaArt.com 
+Template: astra
+Version: 1.0.0
+*/
+
+/*
+@import url("../astra/style.css");
+*/
+
+.product-categories .children {
+    margin-left: 1.5em;
+	padding-top: 5px;
+}
+.product-categories .children li:last-child {
+	padding-bottom: 0;
+}
+
+/* Registration Form
+---------------------------------*/
+
+#mc_embed_signup{
+	background: rgba(239,136,19,0.75);
+	clear:left; 
+	font:14px Domine,Helvetica,Arial,sans-serif; 
+	padding: 10px;
+	width:100%; 
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+}
+
+#mc_embed_signup input[type="email"] {
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+}
+
+#mc_embed_signup input[type="submit"] {
+	background: #0eb2e7;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+	background: #0eb2e7;
+	color: #000c30;
+}
+ 
+#mc_embed_signup input[type="submit"]:hover {
+ 	background: #000c30;
+	color: #0eb2e7;
+}
+
+
+/* Contact Form 7 Styles
+---------------------------------*/
+/*
+#wpcf7-f649-p12-o1 {
+	background: rgba(239,136,19,0.75);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding: 10px 20px;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+}
+
+#wpcf7-f649-p12-o1 p {
+	color: #4f2a0f;
+	margin-bottom: 5px;
+}
+
+#wpcf7-f649-p12-o1 text, 
+#wpcf7-f649-p12-o1 input{
+	background: #f6efdf;
+	padding: 5px 7px;
+	margin: 4px 0 8px 0;
+	border: 3px solid #ccb58c;
+	color: #4f4f4f;
+	border-radius: 7px;	
+	width: 50%; 
+}
+
+#wpcf7-f649-p12-o1 textarea {
+	background: #f6efdf;
+	padding: 5px 7px;
+	margin: 4px 0 8px 0;
+	border: 3px solid #ccb58c;
+	color: #4f4f4f;
+	border-radius: 7px;
+	width: 85%;
+}
+ 
+#wpcf7-f649-p12-o1 [type="submit"] {
+	background: #0eb2e7;
+	padding: 5px 15px;
+	color: #000c30;
+	min-width: 100px;
+}
+ 
+#wpcf7-f649-p12-o1 input[type="submit"]:hover {
+ 	background: #000c30;
+	color: #0eb2e7;
+}
+*/
+/* Contact Form 7 Styles
+---------------------------------*/
+
+.wpcf7 {
+	background: rgba(239,136,19,0.75);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding: 10px 20px;
+	border: 3px solid #ccb58c;
+	border-radius: 7px;
+}
+
+.wpcf7 p {
+	color: #4f2a0f;
+	margin-bottom: 5px;
+}
+
+.wpcf7 input {
+	background: #f6efdf;
+	padding: 5px 7px;
+	margin: 4px 0 8px 0;
+	border: 3px solid #ccb58c;
+	color: #4f4f4f;
+	border-radius: 7px;	
+	width: 50%; 
+}
+
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="text"],
+.wpcf7 input[type="date"],
+.wpcf7 textarea {
+	background: #f6efdf;
+	padding: 5px 7px;
+	margin: 4px 0 8px 0;
+	border: 3px solid #ccb58c;
+	color: #4f4f4f;
+	border-radius: 7px;
+	width: 85%;
+}
+ 
+.wpcf7 [type="submit"] {
+	background: #0eb2e7;
+	padding: 5px 15px;
+	color: #000c30;
+	min-width: 100px;
+}
+ 
+.wpcf7 input[type="submit"]:hover {
+ 	background: #000c30;
+	color: #0eb2e7;
+}
+
+
+.my-post-thumbnail {
+    /*background-color: rgba(0, 0, 0, .7);*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	min-height: 400px;
+}
+
+
+
+
+

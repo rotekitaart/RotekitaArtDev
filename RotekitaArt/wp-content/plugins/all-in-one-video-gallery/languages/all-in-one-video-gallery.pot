@@ -1,0 +1,1496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: All-in-One Video Gallery\n"
+"POT-Creation-Date: 2018-07-11 09:53+0530\n"
+"PO-Revision-Date: 2018-07-11 09:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-aiovg-admin-categories.php:33
+#: admin/class-aiovg-admin-categories.php:35
+#: widgets/categories/class-aiovg-widget-categories.php:55
+msgid "Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:34
+msgid "Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:36
+#: admin/class-aiovg-admin-videos.php:365
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:37
+msgid "Parent Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:38
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:39
+msgid "New Category Name"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:40
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:41
+msgid "Edit Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:42
+msgid "Update Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:43
+msgid "View Category"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:44
+msgid "Separate categories with commas"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:45
+msgid "Add or remove categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:46
+msgid "Choose from the most used"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:47
+msgid "Popular Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:48
+msgid "Search Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:49
+msgid "Not Found"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:50
+msgid "No categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:51
+msgid "Categories list"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:52
+msgid "Categories list navigation"
+msgstr ""
+
+#: admin/class-aiovg-admin-categories.php:137
+#: admin/class-aiovg-admin-settings.php:382
+#: admin/class-aiovg-admin-shortcode.php:104
+#: admin/class-aiovg-admin-videos.php:433
+#: widgets/categories/templates/admin.php:43
+msgid "ID"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:61
+#: admin/class-aiovg-admin-settings.php:62 admin/class-aiovg-admin.php:91
+#: admin/templates/welcome.php:45
+msgid "Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:107
+msgid "General"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:108
+msgid "Display"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:109
+msgid "Privacy"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:110
+msgid "Advanced"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:128
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:133
+msgid "Player Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:138
+msgid "Logo & Branding"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:143
+msgid "Image Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:148
+msgid "Categories Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:153
+msgid "Video Gallery Pages"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:158
+msgid "Single Video Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:163
+msgid "Privacy Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:164
+msgid ""
+"These options will help with privacy restrictions such as GDPR and the EU "
+"Cookie Law."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:169
+msgid "Permalink Slugs"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:170
+msgid ""
+"NOTE: Just make sure that, after updating the fields in this section, you "
+"flush the rewrite rules by visiting \"Settings > Permalinks\". Otherwise "
+"you'll still see the old links."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:175
+msgid "Socialshare Buttons"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:176
+msgid "Select social share buttons displayed in the single video pages."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:181
+msgid "Page Settings"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:202
+msgid "Bootstrap Options"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:203
+msgid ""
+"All-in-One Video Gallery uses Bootstrap version 3. Disable this option if "
+"your theme already include the \"Bootstrap\" library files."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:206
+msgid "Include Bootstrap CSS"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:212
+msgid "Font Awesome"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:213
+msgid ""
+"Include Font Awesome. Disable this option if your theme already include the "
+"\"Font Awesome\" library files"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:219
+msgid "Remove data on uninstall?"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:220
+msgid ""
+"Check this box to delete all of the plugin data( database stored content, "
+"uploaded media files, etc... ) when uninstalled"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:228
+#: admin/class-aiovg-admin-settings.php:352
+#: admin/class-aiovg-admin-shortcode.php:279
+#: widgets/video/templates/admin.php:46
+msgid "Width"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:229
+#, php-format
+msgid ""
+"In pixels. Maximum width of the player. Leave this field empty to scale "
+"100% of its enclosing container/html element."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:235
+#: admin/class-aiovg-admin-settings.php:359
+#: admin/class-aiovg-admin-shortcode.php:286
+#: widgets/video/templates/admin.php:51
+msgid "Ratio"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:238
+msgid ""
+"In percentage. 1 to 100. Calculate player's height using the ratio value "
+"entered."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:239
+msgid "Examples"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:240
+msgid "Wide Screen TV"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:241
+msgid "Monitor Screens"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:242
+msgid "Classic TV"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:243
+msgid "Photo Camera"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:244
+msgid "Square"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:245
+msgid "Cinemascope"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:252
+#: admin/class-aiovg-admin-shortcode.php:293
+#: widgets/video/templates/admin.php:57
+msgid "Autoplay"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:253
+msgid "Check this to start playing the video as soon as it is ready"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:259
+#: admin/class-aiovg-admin-shortcode.php:300
+#: widgets/video/templates/admin.php:62
+msgid "Loop"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:260
+msgid ""
+"Check this, so that the video will start over again, every time it is "
+"finished"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:266
+msgid "Preload"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:269
+msgid "Specifies if and how the video should be loaded when the page loads."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:270
+msgid "\"Auto\" - the video should be loaded entirely when the page loads"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:271
+msgid "\"Metadata\" - only metadata should be loaded when the page loads"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:272
+msgid "\"None\" - the video should not be loaded when the page loads"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:276
+msgid "Auto"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:277
+msgid "Metadata"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:278
+msgid "None"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:284
+#: admin/class-aiovg-admin-shortcode.php:307
+#: widgets/video/templates/admin.php:65
+msgid "Show / Hide Player Controls"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:288
+#: admin/class-aiovg-admin-shortcode.php:312
+#: widgets/video/templates/admin.php:69
+msgid "Play / Pause"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:289
+#: admin/class-aiovg-admin-shortcode.php:319
+#: widgets/video/templates/admin.php:74
+msgid "Current Time"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:290
+#: admin/class-aiovg-admin-shortcode.php:326
+#: widgets/video/templates/admin.php:79
+msgid "Progressbar"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:291
+#: admin/class-aiovg-admin-shortcode.php:333
+#: admin/templates/video-sources.php:161 admin/templates/video-sources.php:164
+#: widgets/video/templates/admin.php:84
+msgid "Duration"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:292
+#: admin/class-aiovg-admin-shortcode.php:340
+#: admin/class-aiovg-admin-videos.php:150 widgets/video/templates/admin.php:89
+msgid "Subtitles"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:293
+#: admin/class-aiovg-admin-shortcode.php:347
+#: widgets/video/templates/admin.php:94
+msgid "Volume"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:294
+#: admin/class-aiovg-admin-shortcode.php:354
+#: widgets/video/templates/admin.php:99
+msgid "Fullscreen"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:302
+msgid "Show Logo"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:303
+msgid "Check this option to show the watermark on the video."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:309
+msgid "Logo Image"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:310
+msgid ""
+"Upload the image file of your logo. We recommend using the transparent PNG "
+"format with width below 100 pixels. If you do not enter any image, no logo "
+"will displayed."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:316
+msgid "Logo Link"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:317
+msgid ""
+"The URL to visit when the watermark image is clicked. Clicking a logo will "
+"have no affect unless this is configured."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:323
+msgid "Logo Position"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:324
+msgid "This sets the corner in which to display the watermark."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:327
+msgid "Top Left"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:328
+msgid "Top Right"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:329
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:330
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:336
+msgid "Logo Margin"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:337
+msgid "The distance, in pixels, of the logo from the edges of the display."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:343
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:344
+msgid "Text that is shown when a user right-clicks the player with the mouse."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:353
+#, php-format
+msgid "Always 100% of its enclosing container/html element."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:360
+msgid ""
+"In percentage. 1 to 100. Calculate images's height using the ratio value "
+"entered."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:368
+#: admin/class-aiovg-admin-settings.php:425
+#: admin/class-aiovg-admin-shortcode.php:94
+#: admin/class-aiovg-admin-shortcode.php:156
+#: widgets/videos/templates/admin.php:50
+msgid "Number of Columns"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:369
+msgid "Enter the number of columns you like to have in your categories page."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:378
+#: admin/class-aiovg-admin-shortcode.php:114
+msgid "Order Categories by"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:383
+#: admin/class-aiovg-admin-shortcode.php:105
+#: widgets/categories/templates/admin.php:44
+msgid "Count"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:384
+#: admin/class-aiovg-admin-shortcode.php:106
+#: widgets/categories/templates/admin.php:45
+msgid "Name"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:385
+#: admin/class-aiovg-admin-shortcode.php:107
+#: widgets/categories/templates/admin.php:46
+msgid "Slug"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:391
+#: admin/class-aiovg-admin-shortcode.php:101
+msgid "Sort Categories by"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:395
+#: admin/class-aiovg-admin-settings.php:459
+msgid "Ascending"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:396
+#: admin/class-aiovg-admin-settings.php:460
+msgid "Descending"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:402
+#: admin/class-aiovg-admin-shortcode.php:125
+msgid "Show Description?"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:403
+msgid "Check this to show the categories description"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:409
+#: admin/class-aiovg-admin-shortcode.php:132
+msgid "Show Videos Count?"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:410
+msgid "Check this to show the videos count next to the category name"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:416
+#: admin/class-aiovg-admin-shortcode.php:139
+msgid "Hide Empty Categories?"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:417
+msgid "Check this to hide categories with no videos"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:426
+msgid "Enter the number of columns you like to have in the gallery view."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:435
+msgid "Videos per Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:436
+msgid ""
+"Number of videos to show per page. Use a value of \"0\" to show all videos."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:442
+msgid "Order Videos by"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:446
+#: admin/class-aiovg-admin-shortcode.php:173
+#: widgets/categories/templates/admin.php:15
+#: widgets/search/templates/admin.php:15 widgets/video/templates/admin.php:15
+#: widgets/videos/templates/admin.php:15 widgets/videos/templates/admin.php:64
+msgid "Title"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:447
+#: admin/class-aiovg-admin-shortcode.php:174
+#: widgets/videos/templates/admin.php:65
+msgid "Date Posted"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:448
+#: admin/class-aiovg-admin-settings.php:474
+#: admin/class-aiovg-admin-settings.php:498
+#: admin/class-aiovg-admin-shortcode.php:175
+#: admin/class-aiovg-admin-shortcode.php:241
+#: widgets/videos/templates/admin.php:66 widgets/videos/templates/admin.php:124
+msgid "Views Count"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:449
+#: admin/class-aiovg-admin-shortcode.php:176
+#: widgets/videos/templates/admin.php:67
+msgid "Random"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:455
+msgid "Sort Videos by"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:466
+#: admin/class-aiovg-admin-settings.php:491
+#: admin/class-aiovg-admin-shortcode.php:208
+#: widgets/videos/templates/admin.php:105
+msgid "Show / Hide"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:470
+#: admin/class-aiovg-admin-shortcode.php:213
+msgid "Videos Count"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:471
+#: admin/class-aiovg-admin-settings.php:495
+#: admin/class-aiovg-admin-shortcode.php:220
+#: widgets/videos/templates/admin.php:109
+msgid "Category Name"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:472
+#: admin/class-aiovg-admin-settings.php:496
+#: admin/class-aiovg-admin-shortcode.php:227
+#: widgets/videos/templates/admin.php:114
+msgid "Date Added"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:473
+#: admin/class-aiovg-admin-settings.php:497
+#: admin/class-aiovg-admin-shortcode.php:234
+msgid "Author Name"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:475
+#: admin/class-aiovg-admin-shortcode.php:248
+#: widgets/videos/templates/admin.php:129
+msgid "Video Duration"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:476
+msgid "Excerpt  ( Short Description )"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:482
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:483
+msgid "Number of characters."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:499
+#: admin/class-aiovg-admin-shortcode.php:201
+#: widgets/videos/templates/admin.php:101
+msgid "Related Videos"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:505
+msgid "Enable Comments"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:506
+msgid ""
+"Allow visitors to comment videos using the standard WordPress comment form. "
+"Comments are public"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:514
+msgid "GDPR - Show Consent"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:515
+msgid "Ask for consent before loading YouTube/Vimeo content."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:521
+msgid "GDPR - Consent Message"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:528
+msgid "GDPR - Consent Button Label"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:537
+msgid "Video Detail Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:538
+msgid "Replaces the SLUG value used by custom post type \"aiovg_videos\"."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:546
+msgid "Enable Services"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:550
+#: admin/templates/video-sources.php:126 admin/templates/video-sources.php:129
+#: includes/functions.php:800 includes/functions.php:1211
+msgid "Facebook"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:551 includes/functions.php:1216
+msgid "Twitter"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:552
+msgid "Google Plus"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:553 includes/functions.php:1226
+msgid "Linkedin"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:554
+msgid "Pinterest"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:562
+msgid "Single Category Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:563
+msgid ""
+"This is the page where the videos from a particular category is displayed. "
+"The [aiovg_category] short code must be on this page."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:569
+msgid "Search Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:570
+msgid ""
+"This is the page where the search results are displayed. The [aiovg_search] "
+"short code must be on this page."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:576
+msgid "User Videos Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:577
+msgid ""
+"This is the page where the videos from an user is displayed. The "
+"[aiovg_user_videos] short code must be on this page."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:583
+msgid "Player Page"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:584
+msgid "This is the page used to show the video player."
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:870
+msgid "Choose File"
+msgstr ""
+
+#: admin/class-aiovg-admin-settings.php:925
+msgid "Select a page"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:36
+msgid "Video Player & Gallery"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:65
+#: widgets/video/templates/admin.php:22
+msgid "Latest Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:74
+msgid "Video Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:75
+#: admin/class-aiovg-admin-videos.php:38
+#: widgets/videos/class-aiovg-widget-videos.php:56
+msgid "Video Gallery"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:76
+msgid "Single Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:77
+msgid "Search Form"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:86
+#: widgets/categories/templates/admin.php:20
+#: widgets/categories/templates/admin.php:23
+msgid "Select Parent"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:117
+#: admin/class-aiovg-admin-shortcode.php:186
+#: widgets/categories/templates/admin.php:61
+#: widgets/videos/templates/admin.php:82
+msgid "ASC"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:118
+#: admin/class-aiovg-admin-shortcode.php:187
+#: widgets/categories/templates/admin.php:62
+#: widgets/videos/templates/admin.php:83
+msgid "DESC"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:148
+#: widgets/videos/templates/admin.php:19
+msgid "Select Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:163
+#: widgets/videos/templates/admin.php:55
+msgid "Limit"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:170
+#: widgets/categories/templates/admin.php:39
+#: widgets/videos/templates/admin.php:60
+msgid "Order By"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:183
+#: widgets/categories/templates/admin.php:57
+#: widgets/videos/templates/admin.php:78
+msgid "Order"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:194
+#: widgets/videos/templates/admin.php:95
+msgid "Featured Only"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:201
+#: widgets/videos/templates/admin.php:101
+msgid "Follow URL?"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:255
+#: widgets/videos/templates/admin.php:134
+msgid "Excerpt ( Short Description )"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:262
+msgid "Show Pagination"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:271
+#: widgets/video/templates/admin.php:20
+msgid "Select a Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:363
+msgid "Select a Template"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:366
+#: widgets/search/templates/admin.php:22
+msgid "Vertical"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:367
+#: widgets/search/templates/admin.php:23
+msgid "Horizontal"
+msgstr ""
+
+#: admin/class-aiovg-admin-shortcode.php:374
+#: widgets/search/templates/admin.php:29
+msgid "Search by Categories"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:36
+msgid "Videos"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:37 admin/class-aiovg-admin-videos.php:39
+#: admin/class-aiovg-admin-videos.php:71
+msgid "Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:40
+msgid "Video Archives"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:41
+msgid "Video Attributes"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:42
+msgid "Parent Video:"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:43 admin/class-aiovg-admin-videos.php:381
+msgid "All Videos"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:44
+msgid "Add New Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:45
+msgid "Add New"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:46
+msgid "New Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:47
+msgid "Edit Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:48
+msgid "Update Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:49
+msgid "View Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:50
+msgid "View Videos"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:51
+msgid "Search Video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:52
+msgid "Not found"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:53
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:54
+msgid "Featured Image"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:55
+msgid "Set featured image"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:56
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:57
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:58
+msgid "Insert into video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:59
+msgid "Uploaded to this video"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:60
+msgid "Videos list"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:61
+msgid "Videos list navigation"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:62
+msgid "Filter videos list"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:72
+msgid "Video Description"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:141
+msgid "Video Sources"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:382
+msgid "Featured only"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:431 admin/templates/video-sources.php:172
+#: admin/templates/video-sources.php:175
+msgid "Views"
+msgstr ""
+
+#: admin/class-aiovg-admin-videos.php:432
+#: admin/templates/video-submitbox.php:18
+msgid "Featured"
+msgstr ""
+
+#: admin/class-aiovg-admin-welcome.php:33
+#: admin/class-aiovg-admin-welcome.php:34
+msgid "About - All-in-One Video Gallery"
+msgstr ""
+
+#: admin/class-aiovg-admin-welcome.php:41
+#: admin/class-aiovg-admin-welcome.php:42
+msgid "Support - All-in-One Video Gallery"
+msgstr ""
+
+#: admin/class-aiovg-admin-welcome.php:62
+msgid "About"
+msgstr ""
+
+#: admin/class-aiovg-admin-welcome.php:63
+msgid "Support"
+msgstr ""
+
+#: admin/class-aiovg-admin.php:107
+msgid "All-in-One Video Gallery"
+msgstr ""
+
+#: admin/class-aiovg-admin.php:109
+msgid "Online Documentation"
+msgstr ""
+
+#: admin/class-aiovg-admin.php:110
+msgid "Contact Support"
+msgstr ""
+
+#: admin/class-aiovg-admin.php:111
+msgid "Premium Add-ons"
+msgstr ""
+
+#: admin/templates/category-image.php:16 admin/templates/category-image.php:27
+#: admin/templates/video-sources.php:147 admin/templates/video-sources.php:150
+msgid "Image"
+msgstr ""
+
+#: admin/templates/category-image.php:20 admin/templates/category-image.php:37
+msgid "Add Image"
+msgstr ""
+
+#: admin/templates/category-image.php:21 admin/templates/category-image.php:38
+msgid "Remove Image"
+msgstr ""
+
+#: admin/templates/shortcode-builder.php:17
+msgid ""
+"Use the form below to insert \"All-in-One Video Gallery\" plugin shortcodes."
+msgstr ""
+
+#: admin/templates/shortcode-builder.php:21
+msgid "Shortcode Type"
+msgstr ""
+
+#: admin/templates/shortcode-builder.php:49
+msgid "Top Categories"
+msgstr ""
+
+#: admin/templates/shortcode-builder.php:116
+msgid "Insert Shortcode"
+msgstr ""
+
+#: admin/templates/shortcode-builder.php:117
+msgid "Cancel"
+msgstr ""
+
+#: admin/templates/video-sources.php:18 admin/templates/video-sources.php:21
+msgid "Type"
+msgstr ""
+
+#: admin/templates/video-sources.php:34 admin/templates/video-sources.php:37
+msgid "MP4"
+msgstr ""
+
+#: admin/templates/video-sources.php:39 admin/templates/video-sources.php:70
+#: admin/templates/video-sources.php:84 admin/templates/video-sources.php:152
+#: admin/templates/video-tracks.php:28 admin/templates/video-tracks.php:64
+msgid "Enter your Direct File URL here (OR) use the Upload Media button"
+msgstr ""
+
+#: admin/templates/video-sources.php:41 admin/templates/video-sources.php:72
+#: admin/templates/video-sources.php:86 admin/templates/video-sources.php:154
+msgid "Upload Media"
+msgstr ""
+
+#: admin/templates/video-sources.php:51 admin/templates/video-sources.php:65
+#: admin/templates/video-sources.php:68
+msgid "WebM"
+msgstr ""
+
+#: admin/templates/video-sources.php:57 admin/templates/video-sources.php:79
+#: admin/templates/video-sources.php:82
+msgid "OGV"
+msgstr ""
+
+#: admin/templates/video-sources.php:93 admin/templates/video-sources.php:96
+#: includes/functions.php:797
+msgid "YouTube"
+msgstr ""
+
+#: admin/templates/video-sources.php:98
+msgid "Example: https://www.youtube.com/watch?v=twYp6W6vt2U"
+msgstr ""
+
+#: admin/templates/video-sources.php:104 admin/templates/video-sources.php:107
+#: includes/functions.php:798
+msgid "Vimeo"
+msgstr ""
+
+#: admin/templates/video-sources.php:109
+msgid "Example: https://vimeo.com/108018156"
+msgstr ""
+
+#: admin/templates/video-sources.php:115 admin/templates/video-sources.php:118
+#: includes/functions.php:799
+msgid "Dailymotion"
+msgstr ""
+
+#: admin/templates/video-sources.php:120
+msgid "Example: https://www.dailymotion.com/video/x11prnt"
+msgstr ""
+
+#: admin/templates/video-sources.php:131
+msgid "Example: https://www.facebook.com/facebook/videos/10155278547321729"
+msgstr ""
+
+#: admin/templates/video-sources.php:137 admin/templates/video-sources.php:140
+msgid "Embed Code"
+msgstr ""
+
+#: admin/templates/video-sources.php:141
+msgid "Enter your Iframe Embed Code here"
+msgstr ""
+
+#: admin/templates/video-sources.php:166
+msgid "6:30"
+msgstr ""
+
+#: admin/templates/video-submitbox.php:17
+msgid "Mark as"
+msgstr ""
+
+#: admin/templates/video-submitbox.php:26
+msgid "Video Shortcode"
+msgstr ""
+
+#: admin/templates/video-tracks.php:17 admin/templates/video-tracks.php:26
+#: admin/templates/video-tracks.php:62
+msgid "File URL"
+msgstr ""
+
+#: admin/templates/video-tracks.php:18 admin/templates/video-tracks.php:32
+#: admin/templates/video-tracks.php:68
+msgid "Label"
+msgstr ""
+
+#: admin/templates/video-tracks.php:19 admin/templates/video-tracks.php:38
+#: admin/templates/video-tracks.php:74
+msgid "Srclang"
+msgstr ""
+
+#: admin/templates/video-tracks.php:34 admin/templates/video-tracks.php:70
+msgid "English"
+msgstr ""
+
+#: admin/templates/video-tracks.php:40 admin/templates/video-tracks.php:76
+msgid "en"
+msgstr ""
+
+#: admin/templates/video-tracks.php:45 admin/templates/video-tracks.php:81
+msgid "Upload File"
+msgstr ""
+
+#: admin/templates/video-tracks.php:47 admin/templates/video-tracks.php:83
+msgid "Delete"
+msgstr ""
+
+#: admin/templates/video-tracks.php:55
+msgid "Add New File"
+msgstr ""
+
+#: admin/templates/welcome.php:16
+#, php-format
+msgid "Welcome to \"All-in-One Video Gallery - %s\""
+msgstr ""
+
+#: admin/templates/welcome.php:19
+msgid ""
+"Responsive & Lightweight Video gallery plugin. No coding required. Add/"
+"Manage videos through a dedicated custom post interface, group them by "
+"categories, customize the front-end display using the shortcode builder as "
+"you need, provide the option for users to search videos, plus everything you "
+"will need to build a YouTube/Vimeo like video sharing website."
+msgstr ""
+
+#: admin/templates/welcome.php:35
+msgid ""
+"Built over the WordPress' Native Video Player. Supports any browser & video "
+"formats such as MP4, WebM, OGV and embeddable players like YouTube, Vimeo, "
+"Dailymotion, Facebook, etc."
+msgstr ""
+
+#: admin/templates/welcome.php:50
+msgid ""
+"Highly customizable. Complete control over the player & gallery display. "
+"Configure what and how to display. Example: Number of Columns in a Gallery, "
+"Autoplay a Video, etc."
+msgstr ""
+
+#: admin/templates/welcome.php:59
+msgid "Categories &rarr; Add"
+msgstr ""
+
+#: admin/templates/welcome.php:64
+#, php-format
+msgid ""
+"Unlimited Categories. Categories help you organize your videos in a flexible "
+"way. Use %s shortcode to display the categories in the front-end."
+msgstr ""
+
+#: admin/templates/welcome.php:73
+msgid "Video Gallery &rarr; Add New"
+msgstr ""
+
+#: admin/templates/welcome.php:78
+#, php-format
+msgid ""
+"Uploading the video files is simple. To add your first video post, simply "
+"click Add New and then fill out the video details. By default, the videos "
+"are displayed using their own custom POST page. Use %s shortcode to show the "
+"video in your own POST or PAGE."
+msgstr ""
+
+#: admin/templates/welcome.php:84
+msgid "Shortcode Builder"
+msgstr ""
+
+#: admin/templates/welcome.php:87
+msgid ""
+"Stop worrying about the shortcode attributes. Comes with a beautiful "
+"shortcode builder that makes integration easy. Look at the \"Video Player & "
+"Gallery\" button on top of the WP Editor in your POSTS or PAGES."
+msgstr ""
+
+#: admin/templates/welcome.php:95
+msgid "Widgets"
+msgstr ""
+
+#: admin/templates/welcome.php:99
+msgid ""
+"Widgets to search videos, list categories, display videos grid and to add a "
+"video player. Videos widget can be configured to show the latest, popular or "
+"only featured or videos from selective categories, videos related to the "
+"current playing video, etc."
+msgstr ""
+
+#: admin/templates/welcome.php:107
+msgid "More Features"
+msgstr ""
+
+#: admin/templates/welcome.php:111
+msgid ""
+"Custom Logo & Branding, GDPR Consent, Subtitles, Comments, Social Sharing, "
+"Pagination and lot more."
+msgstr ""
+
+#: admin/templates/welcome.php:119
+msgid "Need Help?"
+msgstr ""
+
+#: admin/templates/welcome.php:124
+msgid "Phenomenal Support"
+msgstr ""
+
+#: admin/templates/welcome.php:127
+#, php-format
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, simply submit your question using our <a href="
+"\"%s\" target=\"_blank\">support form</a>."
+msgstr ""
+
+#: admin/templates/welcome.php:132
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: admin/templates/welcome.php:135
+#, php-format
+msgid ""
+"Our <a href=\"%s\" target=\"_blank\">Priority Support</a> system is there "
+"for customers that need faster and/or more in-depth assistance."
+msgstr ""
+
+#: includes/functions.php:340
+#, php-format
+msgid "Proudly by \"%s\""
+msgstr ""
+
+#: includes/functions.php:381
+msgid ""
+"<strong>Please accept cookies to play this video</strong>. By accepting you "
+"will be accessing content from a service provided by an external third party."
+msgstr ""
+
+#: includes/functions.php:382
+msgid "Accept"
+msgstr ""
+
+#: includes/functions.php:519
+msgid "No Items found."
+msgstr ""
+
+#: includes/functions.php:796
+msgid "Self Hosted"
+msgstr ""
+
+#: includes/functions.php:796
+msgid "External URL"
+msgstr ""
+
+#: includes/functions.php:801
+msgid "Iframe Embed Code"
+msgstr ""
+
+#: includes/functions.php:944
+msgid "Video Category"
+msgstr ""
+
+#: includes/functions.php:948 widgets/search/class-aiovg-widget-search.php:117
+msgid "Search Videos"
+msgstr ""
+
+#: includes/functions.php:952
+msgid "User Videos"
+msgstr ""
+
+#: includes/functions.php:956
+msgid "Player Embed"
+msgstr ""
+
+#: includes/functions.php:1127
+msgid "&laquo;"
+msgstr ""
+
+#: includes/functions.php:1128
+msgid "&raquo;"
+msgstr ""
+
+#: includes/functions.php:1152
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: includes/functions.php:1221
+msgid "Google+"
+msgstr ""
+
+#: includes/functions.php:1231
+msgid "Pin It"
+msgstr ""
+
+#: public/class-aiovg-public-categories.php:123
+msgid "Sub Categories"
+msgstr ""
+
+#: public/class-aiovg-public.php:333
+#, php-format
+msgid "Showing results for \"%s\""
+msgstr ""
+
+#: public/templates/categories-grid.php:51
+#, php-format
+msgid "%d videos"
+msgstr ""
+
+#: public/templates/player.php:507
+msgid "Please wait"
+msgstr ""
+
+#: public/templates/search-form-horizontal.php:31
+#: public/templates/search-form-vertical.php:29
+msgid "Select a Category"
+msgstr ""
+
+#: public/templates/search-form-horizontal.php:46
+#: public/templates/search-form-vertical.php:45
+msgid "Search"
+msgstr ""
+
+#: public/templates/search-form-horizontal.php:49
+#: public/templates/search-form-vertical.php:48
+msgid "Reset"
+msgstr ""
+
+#: public/templates/single-video.php:27
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: public/templates/single-video.php:36 public/templates/videos-grid.php:69
+#: widgets/videos/templates/videos-grid-image-left.php:57
+#: widgets/videos/templates/videos-grid-image-top.php:55
+msgid "by"
+msgstr ""
+
+#: public/templates/single-video.php:61 public/templates/videos-grid.php:98
+#: widgets/videos/templates/videos-grid-image-left.php:86
+#: widgets/videos/templates/videos-grid-image-top.php:84
+#, php-format
+msgid "%d views"
+msgstr ""
+
+#: public/templates/single-video.php:81
+msgid "You may also like"
+msgstr ""
+
+#: public/templates/videos-grid.php:19
+#, php-format
+msgid "%d video(s) found"
+msgstr ""
+
+#: public/templates/videos-grid.php:64
+#: widgets/videos/templates/videos-grid-image-left.php:52
+#: widgets/videos/templates/videos-grid-image-top.php:50
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: public/templates/videos-grid.php:73
+#: widgets/videos/templates/videos-grid-image-left.php:61
+#: widgets/videos/templates/videos-grid-image-top.php:59
+msgid "Posted"
+msgstr ""
+
+#: widgets/categories/class-aiovg-widget-categories.php:65
+msgid "AIOVG - Video Categories"
+msgstr ""
+
+#: widgets/categories/class-aiovg-widget-categories.php:68
+msgid "A list or dropdown of video categories."
+msgstr ""
+
+#: widgets/categories/templates/admin.php:74
+msgid " Show Hierarchy"
+msgstr ""
+
+#: widgets/categories/templates/admin.php:79
+msgid "Show Video Counts"
+msgstr ""
+
+#: widgets/categories/templates/admin.php:84
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: widgets/search/class-aiovg-widget-search.php:45
+msgid "A videos search form for your site."
+msgstr ""
+
+#: widgets/search/class-aiovg-widget-search.php:48
+msgid "AIOVG - Search Videos"
+msgstr ""
+
+#: widgets/search/templates/admin.php:20
+msgid "Select Template"
+msgstr ""
+
+#: widgets/video/class-aiovg-widget-video.php:45
+msgid "Displays video added using \"All-in-One Video Gallery\" plugin."
+msgstr ""
+
+#: widgets/video/class-aiovg-widget-video.php:48
+msgid "AIOVG - Video Player"
+msgstr ""
+
+#: widgets/videos/class-aiovg-widget-videos.php:74
+#: widgets/videos/templates/admin.php:139
+msgid "Show More"
+msgstr ""
+
+#: widgets/videos/class-aiovg-widget-videos.php:82
+msgid "AIOVG - Video Gallery"
+msgstr ""
+
+#: widgets/videos/class-aiovg-widget-videos.php:85
+msgid "Displays a video gallery."
+msgstr ""
+
+#: widgets/videos/templates/admin.php:34
+msgid "Image Position"
+msgstr ""
+
+#: widgets/videos/templates/admin.php:38
+msgid "Top"
+msgstr ""
+
+#: widgets/videos/templates/admin.php:39
+msgid "Left"
+msgstr ""
+
+#: widgets/videos/templates/admin.php:119
+msgid "Show User"
+msgstr ""
+
+#: widgets/videos/templates/admin.php:143
+msgid "More Label"
+msgstr ""
+
+#: widgets/videos/templates/admin.php:148
+msgid "More Link"
+msgstr ""

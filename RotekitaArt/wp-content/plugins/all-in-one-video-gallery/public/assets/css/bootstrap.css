@@ -1,0 +1,2335 @@
+.aiovg {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.aiovg {
+  margin: 0;
+}
+.aiovg article,
+.aiovg aside,
+.aiovg details,
+.aiovg figcaption,
+.aiovg figure,
+.aiovg footer,
+.aiovg header,
+.aiovg hgroup,
+.aiovg main,
+.aiovg menu,
+.aiovg nav,
+.aiovg section,
+.aiovg summary {
+  display: block;
+}
+.aiovg audio,
+.aiovg canvas,
+.aiovg progress,
+.aiovg video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.aiovg audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.aiovg [hidden],
+.aiovg template {
+  display: none;
+}
+.aiovg a {
+  background-color: transparent;
+}
+.aiovg a:active,
+.aiovg a:hover {
+  outline: 0;
+}
+.aiovg abbr[title] {
+  border-bottom: 1px dotted;
+}
+.aiovg b,
+.aiovg strong {
+  font-weight: bold;
+}
+.aiovg dfn {
+  font-style: italic;
+}
+.aiovg h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.aiovg mark {
+  background: #ff0;
+  color: #000;
+}
+.aiovg small {
+  font-size: 80%;
+}
+.aiovg sub,
+.aiovg sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.aiovg sup {
+  top: -0.5em;
+}
+.aiovg sub {
+  bottom: -0.25em;
+}
+.aiovg img {
+  border: 0;
+}
+.aiovg svg:not(:root) {
+  overflow: hidden;
+}
+.aiovg figure {
+  margin: 1em 40px;
+}
+.aiovg hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.aiovg pre {
+  overflow: auto;
+}
+.aiovg code,
+.aiovg kbd,
+.aiovg pre,
+.aiovg samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.aiovg button,
+.aiovg input,
+.aiovg optgroup,
+.aiovg select,
+.aiovg textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.aiovg button {
+  overflow: visible;
+}
+.aiovg button,
+.aiovg select {
+  text-transform: none;
+}
+.aiovg button,
+.aiovg input[type="button"],
+.aiovg input[type="reset"],
+.aiovg input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.aiovg button[disabled],
+.aiovg input[disabled] {
+  cursor: default;
+}
+.aiovg button::-moz-focus-inner,
+.aiovg input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.aiovg input {
+  line-height: normal;
+}
+.aiovg input[type="checkbox"],
+.aiovg input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+.aiovg input[type="number"]::-webkit-inner-spin-button,
+.aiovg input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.aiovg input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.aiovg input[type="search"]::-webkit-search-cancel-button,
+.aiovg input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.aiovg fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.aiovg legend {
+  border: 0;
+  padding: 0;
+}
+.aiovg textarea {
+  overflow: auto;
+}
+.aiovg optgroup {
+  font-weight: bold;
+}
+.aiovg table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.aiovg td,
+.aiovg th {
+  padding: 0;
+}
+.aiovg * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aiovg *:before,
+.aiovg *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aiovg {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.aiovg input,
+.aiovg button,
+.aiovg select,
+.aiovg textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.aiovg a {
+  text-decoration: none;
+}
+.aiovg a:hover,
+.aiovg a:focus {
+  text-decoration: underline;
+}
+.aiovg a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.aiovg figure {
+  margin: 0;
+}
+.aiovg img {
+  vertical-align: middle;
+}
+.aiovg .img-responsive,
+.aiovg .thumbnail > img,
+.aiovg .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.aiovg .img-rounded {
+  border-radius: 6px;
+}
+.aiovg .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.aiovg .img-circle {
+  border-radius: 50%;
+}
+.aiovg hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.aiovg .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.aiovg .sr-only-focusable:active,
+.aiovg .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.aiovg [role="button"] {
+  cursor: pointer;
+}
+.aiovg .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .aiovg .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .aiovg .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .aiovg .container {
+    width: 1170px;
+  }
+}
+.aiovg .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.aiovg .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.aiovg .col-xs-1,
+.aiovg .col-sm-1,
+.aiovg .col-md-1,
+.aiovg .col-lg-1,
+.aiovg .col-xs-2,
+.aiovg .col-sm-2,
+.aiovg .col-md-2,
+.aiovg .col-lg-2,
+.aiovg .col-xs-3,
+.aiovg .col-sm-3,
+.aiovg .col-md-3,
+.aiovg .col-lg-3,
+.aiovg .col-xs-4,
+.aiovg .col-sm-4,
+.aiovg .col-md-4,
+.aiovg .col-lg-4,
+.aiovg .col-xs-5,
+.aiovg .col-sm-5,
+.aiovg .col-md-5,
+.aiovg .col-lg-5,
+.aiovg .col-xs-6,
+.aiovg .col-sm-6,
+.aiovg .col-md-6,
+.aiovg .col-lg-6,
+.aiovg .col-xs-7,
+.aiovg .col-sm-7,
+.aiovg .col-md-7,
+.aiovg .col-lg-7,
+.aiovg .col-xs-8,
+.aiovg .col-sm-8,
+.aiovg .col-md-8,
+.aiovg .col-lg-8,
+.aiovg .col-xs-9,
+.aiovg .col-sm-9,
+.aiovg .col-md-9,
+.aiovg .col-lg-9,
+.aiovg .col-xs-10,
+.aiovg .col-sm-10,
+.aiovg .col-md-10,
+.aiovg .col-lg-10,
+.aiovg .col-xs-11,
+.aiovg .col-sm-11,
+.aiovg .col-md-11,
+.aiovg .col-lg-11,
+.aiovg .col-xs-12,
+.aiovg .col-sm-12,
+.aiovg .col-md-12,
+.aiovg .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.aiovg .col-xs-1,
+.aiovg .col-xs-2,
+.aiovg .col-xs-3,
+.aiovg .col-xs-4,
+.aiovg .col-xs-5,
+.aiovg .col-xs-6,
+.aiovg .col-xs-7,
+.aiovg .col-xs-8,
+.aiovg .col-xs-9,
+.aiovg .col-xs-10,
+.aiovg .col-xs-11,
+.aiovg .col-xs-12 {
+  float: left;
+}
+.aiovg .col-xs-12 {
+  width: 100%;
+}
+.aiovg .col-xs-11 {
+  width: 91.66666667%;
+}
+.aiovg .col-xs-10 {
+  width: 83.33333333%;
+}
+.aiovg .col-xs-9 {
+  width: 75%;
+}
+.aiovg .col-xs-8 {
+  width: 66.66666667%;
+}
+.aiovg .col-xs-7 {
+  width: 58.33333333%;
+}
+.aiovg .col-xs-6 {
+  width: 50%;
+}
+.aiovg .col-xs-5 {
+  width: 41.66666667%;
+}
+.aiovg .col-xs-4 {
+  width: 33.33333333%;
+}
+.aiovg .col-xs-3 {
+  width: 25%;
+}
+.aiovg .col-xs-2 {
+  width: 16.66666667%;
+}
+.aiovg .col-xs-1 {
+  width: 8.33333333%;
+}
+.aiovg .col-xs-pull-12 {
+  right: 100%;
+}
+.aiovg .col-xs-pull-11 {
+  right: 91.66666667%;
+}
+.aiovg .col-xs-pull-10 {
+  right: 83.33333333%;
+}
+.aiovg .col-xs-pull-9 {
+  right: 75%;
+}
+.aiovg .col-xs-pull-8 {
+  right: 66.66666667%;
+}
+.aiovg .col-xs-pull-7 {
+  right: 58.33333333%;
+}
+.aiovg .col-xs-pull-6 {
+  right: 50%;
+}
+.aiovg .col-xs-pull-5 {
+  right: 41.66666667%;
+}
+.aiovg .col-xs-pull-4 {
+  right: 33.33333333%;
+}
+.aiovg .col-xs-pull-3 {
+  right: 25%;
+}
+.aiovg .col-xs-pull-2 {
+  right: 16.66666667%;
+}
+.aiovg .col-xs-pull-1 {
+  right: 8.33333333%;
+}
+.aiovg .col-xs-pull-0 {
+  right: auto;
+}
+.aiovg .col-xs-push-12 {
+  left: 100%;
+}
+.aiovg .col-xs-push-11 {
+  left: 91.66666667%;
+}
+.aiovg .col-xs-push-10 {
+  left: 83.33333333%;
+}
+.aiovg .col-xs-push-9 {
+  left: 75%;
+}
+.aiovg .col-xs-push-8 {
+  left: 66.66666667%;
+}
+.aiovg .col-xs-push-7 {
+  left: 58.33333333%;
+}
+.aiovg .col-xs-push-6 {
+  left: 50%;
+}
+.aiovg .col-xs-push-5 {
+  left: 41.66666667%;
+}
+.aiovg .col-xs-push-4 {
+  left: 33.33333333%;
+}
+.aiovg .col-xs-push-3 {
+  left: 25%;
+}
+.aiovg .col-xs-push-2 {
+  left: 16.66666667%;
+}
+.aiovg .col-xs-push-1 {
+  left: 8.33333333%;
+}
+.aiovg .col-xs-push-0 {
+  left: auto;
+}
+.aiovg .col-xs-offset-12 {
+  margin-left: 100%;
+}
+.aiovg .col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+.aiovg .col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+.aiovg .col-xs-offset-9 {
+  margin-left: 75%;
+}
+.aiovg .col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+.aiovg .col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+.aiovg .col-xs-offset-6 {
+  margin-left: 50%;
+}
+.aiovg .col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+.aiovg .col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+.aiovg .col-xs-offset-3 {
+  margin-left: 25%;
+}
+.aiovg .col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+.aiovg .col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+.aiovg .col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  .aiovg .col-sm-1,
+  .aiovg .col-sm-2,
+  .aiovg .col-sm-3,
+  .aiovg .col-sm-4,
+  .aiovg .col-sm-5,
+  .aiovg .col-sm-6,
+  .aiovg .col-sm-7,
+  .aiovg .col-sm-8,
+  .aiovg .col-sm-9,
+  .aiovg .col-sm-10,
+  .aiovg .col-sm-11,
+  .aiovg .col-sm-12 {
+    float: left;
+  }
+  .aiovg .col-sm-12 {
+    width: 100%;
+  }
+  .aiovg .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .aiovg .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .aiovg .col-sm-9 {
+    width: 75%;
+  }
+  .aiovg .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .aiovg .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .aiovg .col-sm-6 {
+    width: 50%;
+  }
+  .aiovg .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .aiovg .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .aiovg .col-sm-3 {
+    width: 25%;
+  }
+  .aiovg .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .aiovg .col-sm-1 {
+    width: 8.33333333%;
+  }
+  .aiovg .col-sm-pull-12 {
+    right: 100%;
+  }
+  .aiovg .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  .aiovg .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  .aiovg .col-sm-pull-9 {
+    right: 75%;
+  }
+  .aiovg .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  .aiovg .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  .aiovg .col-sm-pull-6 {
+    right: 50%;
+  }
+  .aiovg .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  .aiovg .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  .aiovg .col-sm-pull-3 {
+    right: 25%;
+  }
+  .aiovg .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  .aiovg .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  .aiovg .col-sm-pull-0 {
+    right: auto;
+  }
+  .aiovg .col-sm-push-12 {
+    left: 100%;
+  }
+  .aiovg .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  .aiovg .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  .aiovg .col-sm-push-9 {
+    left: 75%;
+  }
+  .aiovg .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  .aiovg .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  .aiovg .col-sm-push-6 {
+    left: 50%;
+  }
+  .aiovg .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  .aiovg .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  .aiovg .col-sm-push-3 {
+    left: 25%;
+  }
+  .aiovg .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  .aiovg .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  .aiovg .col-sm-push-0 {
+    left: auto;
+  }
+  .aiovg .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .aiovg .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .aiovg .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .aiovg .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .aiovg .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .aiovg .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .aiovg .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .aiovg .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .aiovg .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .aiovg .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .aiovg .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .aiovg .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .aiovg .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .aiovg .col-md-1,
+  .aiovg .col-md-2,
+  .aiovg .col-md-3,
+  .aiovg .col-md-4,
+  .aiovg .col-md-5,
+  .aiovg .col-md-6,
+  .aiovg .col-md-7,
+  .aiovg .col-md-8,
+  .aiovg .col-md-9,
+  .aiovg .col-md-10,
+  .aiovg .col-md-11,
+  .aiovg .col-md-12 {
+    float: left;
+  }
+  .aiovg .col-md-12 {
+    width: 100%;
+  }
+  .aiovg .col-md-11 {
+    width: 91.66666667%;
+  }
+  .aiovg .col-md-10 {
+    width: 83.33333333%;
+  }
+  .aiovg .col-md-9 {
+    width: 75%;
+  }
+  .aiovg .col-md-8 {
+    width: 66.66666667%;
+  }
+  .aiovg .col-md-7 {
+    width: 58.33333333%;
+  }
+  .aiovg .col-md-6 {
+    width: 50%;
+  }
+  .aiovg .col-md-5 {
+    width: 41.66666667%;
+  }
+  .aiovg .col-md-4 {
+    width: 33.33333333%;
+  }
+  .aiovg .col-md-3 {
+    width: 25%;
+  }
+  .aiovg .col-md-2 {
+    width: 16.66666667%;
+  }
+  .aiovg .col-md-1 {
+    width: 8.33333333%;
+  }
+  .aiovg .col-md-pull-12 {
+    right: 100%;
+  }
+  .aiovg .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  .aiovg .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  .aiovg .col-md-pull-9 {
+    right: 75%;
+  }
+  .aiovg .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  .aiovg .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  .aiovg .col-md-pull-6 {
+    right: 50%;
+  }
+  .aiovg .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  .aiovg .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  .aiovg .col-md-pull-3 {
+    right: 25%;
+  }
+  .aiovg .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  .aiovg .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  .aiovg .col-md-pull-0 {
+    right: auto;
+  }
+  .aiovg .col-md-push-12 {
+    left: 100%;
+  }
+  .aiovg .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  .aiovg .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  .aiovg .col-md-push-9 {
+    left: 75%;
+  }
+  .aiovg .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  .aiovg .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  .aiovg .col-md-push-6 {
+    left: 50%;
+  }
+  .aiovg .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  .aiovg .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  .aiovg .col-md-push-3 {
+    left: 25%;
+  }
+  .aiovg .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  .aiovg .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  .aiovg .col-md-push-0 {
+    left: auto;
+  }
+  .aiovg .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .aiovg .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .aiovg .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .aiovg .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .aiovg .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .aiovg .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .aiovg .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .aiovg .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .aiovg .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .aiovg .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .aiovg .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .aiovg .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .aiovg .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .aiovg .col-lg-1,
+  .aiovg .col-lg-2,
+  .aiovg .col-lg-3,
+  .aiovg .col-lg-4,
+  .aiovg .col-lg-5,
+  .aiovg .col-lg-6,
+  .aiovg .col-lg-7,
+  .aiovg .col-lg-8,
+  .aiovg .col-lg-9,
+  .aiovg .col-lg-10,
+  .aiovg .col-lg-11,
+  .aiovg .col-lg-12 {
+    float: left;
+  }
+  .aiovg .col-lg-12 {
+    width: 100%;
+  }
+  .aiovg .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .aiovg .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .aiovg .col-lg-9 {
+    width: 75%;
+  }
+  .aiovg .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .aiovg .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .aiovg .col-lg-6 {
+    width: 50%;
+  }
+  .aiovg .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .aiovg .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .aiovg .col-lg-3 {
+    width: 25%;
+  }
+  .aiovg .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .aiovg .col-lg-1 {
+    width: 8.33333333%;
+  }
+  .aiovg .col-lg-pull-12 {
+    right: 100%;
+  }
+  .aiovg .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  .aiovg .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  .aiovg .col-lg-pull-9 {
+    right: 75%;
+  }
+  .aiovg .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  .aiovg .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  .aiovg .col-lg-pull-6 {
+    right: 50%;
+  }
+  .aiovg .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  .aiovg .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  .aiovg .col-lg-pull-3 {
+    right: 25%;
+  }
+  .aiovg .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  .aiovg .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  .aiovg .col-lg-pull-0 {
+    right: auto;
+  }
+  .aiovg .col-lg-push-12 {
+    left: 100%;
+  }
+  .aiovg .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  .aiovg .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  .aiovg .col-lg-push-9 {
+    left: 75%;
+  }
+  .aiovg .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  .aiovg .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  .aiovg .col-lg-push-6 {
+    left: 50%;
+  }
+  .aiovg .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  .aiovg .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  .aiovg .col-lg-push-3 {
+    left: 25%;
+  }
+  .aiovg .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  .aiovg .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  .aiovg .col-lg-push-0 {
+    left: auto;
+  }
+  .aiovg .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  .aiovg .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .aiovg .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .aiovg .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .aiovg .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .aiovg .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .aiovg .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .aiovg .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .aiovg .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .aiovg .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .aiovg .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .aiovg .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .aiovg .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+.aiovg fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.aiovg legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.aiovg label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.aiovg input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aiovg input[type="radio"],
+.aiovg input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.aiovg input[type="file"] {
+  display: block;
+}
+.aiovg input[type="range"] {
+  display: block;
+  width: 100%;
+}
+.aiovg select[multiple],
+.aiovg select[size] {
+  height: auto;
+}
+.aiovg input[type="file"]:focus,
+.aiovg input[type="radio"]:focus,
+.aiovg input[type="checkbox"]:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.aiovg output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+}
+.aiovg .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.aiovg .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.aiovg .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.aiovg .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.aiovg .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+.aiovg .form-control::-ms-expand {
+  border: 0;
+  background-color: transparent;
+}
+.aiovg .form-control[disabled],
+.aiovg .form-control[readonly],
+.aiovg fieldset[disabled] .form-control {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.aiovg .form-control[disabled],
+.aiovg fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+.aiovg textarea.form-control {
+  height: auto;
+}
+.aiovg input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .aiovg input[type="date"].form-control,
+  .aiovg input[type="time"].form-control,
+  .aiovg input[type="datetime-local"].form-control,
+  .aiovg input[type="month"].form-control {
+    line-height: 34px;
+  }
+  .aiovg input[type="date"].input-sm,
+  .aiovg input[type="time"].input-sm,
+  .aiovg input[type="datetime-local"].input-sm,
+  .aiovg input[type="month"].input-sm,
+  .aiovg .input-group-sm input[type="date"],
+  .aiovg .input-group-sm input[type="time"],
+  .aiovg .input-group-sm input[type="datetime-local"],
+  .aiovg .input-group-sm input[type="month"] {
+    line-height: 30px;
+  }
+  .aiovg input[type="date"].input-lg,
+  .aiovg input[type="time"].input-lg,
+  .aiovg input[type="datetime-local"].input-lg,
+  .aiovg input[type="month"].input-lg,
+  .aiovg .input-group-lg input[type="date"],
+  .aiovg .input-group-lg input[type="time"],
+  .aiovg .input-group-lg input[type="datetime-local"],
+  .aiovg .input-group-lg input[type="month"] {
+    line-height: 46px;
+  }
+}
+.aiovg .form-group {
+  margin-bottom: 15px;
+}
+.aiovg .radio,
+.aiovg .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aiovg .radio label,
+.aiovg .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.aiovg .radio input[type="radio"],
+.aiovg .radio-inline input[type="radio"],
+.aiovg .checkbox input[type="checkbox"],
+.aiovg .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+.aiovg .radio + .radio,
+.aiovg .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.aiovg .radio-inline,
+.aiovg .checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+.aiovg .radio-inline + .radio-inline,
+.aiovg .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.aiovg input[type="radio"][disabled],
+.aiovg input[type="checkbox"][disabled],
+.aiovg input[type="radio"].disabled,
+.aiovg input[type="checkbox"].disabled,
+.aiovg fieldset[disabled] input[type="radio"],
+.aiovg fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+.aiovg .radio-inline.disabled,
+.aiovg .checkbox-inline.disabled,
+.aiovg fieldset[disabled] .radio-inline,
+.aiovg fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+.aiovg .radio.disabled label,
+.aiovg .checkbox.disabled label,
+.aiovg fieldset[disabled] .radio label,
+.aiovg fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+.aiovg .form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  min-height: 34px;
+}
+.aiovg .form-control-static.input-lg,
+.aiovg .form-control-static.input-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+.aiovg .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.aiovg select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+.aiovg textarea.input-sm,
+.aiovg select[multiple].input-sm {
+  height: auto;
+}
+.aiovg .form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.aiovg .form-group-sm select.form-control {
+  height: 30px;
+  line-height: 30px;
+}
+.aiovg .form-group-sm textarea.form-control,
+.aiovg .form-group-sm select[multiple].form-control {
+  height: auto;
+}
+.aiovg .form-group-sm .form-control-static {
+  height: 30px;
+  min-height: 32px;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.aiovg .input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.aiovg select.input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+.aiovg textarea.input-lg,
+.aiovg select[multiple].input-lg {
+  height: auto;
+}
+.aiovg .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.aiovg .form-group-lg select.form-control {
+  height: 46px;
+  line-height: 46px;
+}
+.aiovg .form-group-lg textarea.form-control,
+.aiovg .form-group-lg select[multiple].form-control {
+  height: auto;
+}
+.aiovg .form-group-lg .form-control-static {
+  height: 46px;
+  min-height: 38px;
+  padding: 11px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.aiovg .has-feedback {
+  position: relative;
+}
+.aiovg .has-feedback .form-control {
+  padding-right: 42.5px;
+}
+.aiovg .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+.aiovg .input-lg + .form-control-feedback,
+.aiovg .input-group-lg + .form-control-feedback,
+.aiovg .form-group-lg .form-control + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+.aiovg .input-sm + .form-control-feedback,
+.aiovg .input-group-sm + .form-control-feedback,
+.aiovg .form-group-sm .form-control + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.aiovg .has-success .help-block,
+.aiovg .has-success .control-label,
+.aiovg .has-success .radio,
+.aiovg .has-success .checkbox,
+.aiovg .has-success .radio-inline,
+.aiovg .has-success .checkbox-inline,
+.aiovg .has-success.radio label,
+.aiovg .has-success.checkbox label,
+.aiovg .has-success.radio-inline label,
+.aiovg .has-success.checkbox-inline label {
+  color: #3c763d;
+}
+.aiovg .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.aiovg .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+.aiovg .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+.aiovg .has-success .form-control-feedback {
+  color: #3c763d;
+}
+.aiovg .has-warning .help-block,
+.aiovg .has-warning .control-label,
+.aiovg .has-warning .radio,
+.aiovg .has-warning .checkbox,
+.aiovg .has-warning .radio-inline,
+.aiovg .has-warning .checkbox-inline,
+.aiovg .has-warning.radio label,
+.aiovg .has-warning.checkbox label,
+.aiovg .has-warning.radio-inline label,
+.aiovg .has-warning.checkbox-inline label {
+  color: #8a6d3b;
+}
+.aiovg .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.aiovg .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+.aiovg .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+.aiovg .has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+.aiovg .has-error .help-block,
+.aiovg .has-error .control-label,
+.aiovg .has-error .radio,
+.aiovg .has-error .checkbox,
+.aiovg .has-error .radio-inline,
+.aiovg .has-error .checkbox-inline,
+.aiovg .has-error.radio label,
+.aiovg .has-error.checkbox label,
+.aiovg .has-error.radio-inline label,
+.aiovg .has-error.checkbox-inline label {
+  color: #a94442;
+}
+.aiovg .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.aiovg .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.aiovg .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+.aiovg .has-error .form-control-feedback {
+  color: #a94442;
+}
+.aiovg .has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+.aiovg .has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+.aiovg .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  .aiovg .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .aiovg .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .aiovg .form-inline .form-control-static {
+    display: inline-block;
+  }
+  .aiovg .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  .aiovg .form-inline .input-group .input-group-addon,
+  .aiovg .form-inline .input-group .input-group-btn,
+  .aiovg .form-inline .input-group .form-control {
+    width: auto;
+  }
+  .aiovg .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  .aiovg .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .aiovg .form-inline .radio,
+  .aiovg .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .aiovg .form-inline .radio label,
+  .aiovg .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  .aiovg .form-inline .radio input[type="radio"],
+  .aiovg .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  .aiovg .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+.aiovg .form-horizontal .radio,
+.aiovg .form-horizontal .checkbox,
+.aiovg .form-horizontal .radio-inline,
+.aiovg .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+.aiovg .form-horizontal .radio,
+.aiovg .form-horizontal .checkbox {
+  min-height: 27px;
+}
+.aiovg .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  .aiovg .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+.aiovg .form-horizontal .has-feedback .form-control-feedback {
+  right: 15px;
+}
+@media (min-width: 768px) {
+  .aiovg .form-horizontal .form-group-lg .control-label {
+    padding-top: 11px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .aiovg .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+    font-size: 12px;
+  }
+}
+.aiovg .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.aiovg .btn:focus,
+.aiovg .btn:active:focus,
+.aiovg .btn.active:focus,
+.aiovg .btn.focus,
+.aiovg .btn:active.focus,
+.aiovg .btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.aiovg .btn:hover,
+.aiovg .btn:focus,
+.aiovg .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.aiovg .btn:active,
+.aiovg .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.aiovg .btn.disabled,
+.aiovg .btn[disabled],
+.aiovg fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.aiovg a.btn.disabled,
+.aiovg fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+.aiovg .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.aiovg .btn-default:focus,
+.aiovg .btn-default.focus {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.aiovg .btn-default:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.aiovg .btn-default:active,
+.aiovg .btn-default.active,
+.aiovg .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.aiovg .btn-default:active:hover,
+.aiovg .btn-default.active:hover,
+.aiovg .open > .dropdown-toggle.btn-default:hover,
+.aiovg .btn-default:active:focus,
+.aiovg .btn-default.active:focus,
+.aiovg .open > .dropdown-toggle.btn-default:focus,
+.aiovg .btn-default:active.focus,
+.aiovg .btn-default.active.focus,
+.aiovg .open > .dropdown-toggle.btn-default.focus {
+  color: #333333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.aiovg .btn-default:active,
+.aiovg .btn-default.active,
+.aiovg .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.aiovg .btn-default.disabled:hover,
+.aiovg .btn-default[disabled]:hover,
+.aiovg fieldset[disabled] .btn-default:hover,
+.aiovg .btn-default.disabled:focus,
+.aiovg .btn-default[disabled]:focus,
+.aiovg fieldset[disabled] .btn-default:focus,
+.aiovg .btn-default.disabled.focus,
+.aiovg .btn-default[disabled].focus,
+.aiovg fieldset[disabled] .btn-default.focus {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.aiovg .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.aiovg .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.aiovg .btn-primary:focus,
+.aiovg .btn-primary.focus {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.aiovg .btn-primary:hover {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.aiovg .btn-primary:active,
+.aiovg .btn-primary.active,
+.aiovg .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.aiovg .btn-primary:active:hover,
+.aiovg .btn-primary.active:hover,
+.aiovg .open > .dropdown-toggle.btn-primary:hover,
+.aiovg .btn-primary:active:focus,
+.aiovg .btn-primary.active:focus,
+.aiovg .open > .dropdown-toggle.btn-primary:focus,
+.aiovg .btn-primary:active.focus,
+.aiovg .btn-primary.active.focus,
+.aiovg .open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.aiovg .btn-primary:active,
+.aiovg .btn-primary.active,
+.aiovg .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.aiovg .btn-primary.disabled:hover,
+.aiovg .btn-primary[disabled]:hover,
+.aiovg fieldset[disabled] .btn-primary:hover,
+.aiovg .btn-primary.disabled:focus,
+.aiovg .btn-primary[disabled]:focus,
+.aiovg fieldset[disabled] .btn-primary:focus,
+.aiovg .btn-primary.disabled.focus,
+.aiovg .btn-primary[disabled].focus,
+.aiovg fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.aiovg .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+.aiovg .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.aiovg .btn-success:focus,
+.aiovg .btn-success.focus {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.aiovg .btn-success:hover {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.aiovg .btn-success:active,
+.aiovg .btn-success.active,
+.aiovg .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.aiovg .btn-success:active:hover,
+.aiovg .btn-success.active:hover,
+.aiovg .open > .dropdown-toggle.btn-success:hover,
+.aiovg .btn-success:active:focus,
+.aiovg .btn-success.active:focus,
+.aiovg .open > .dropdown-toggle.btn-success:focus,
+.aiovg .btn-success:active.focus,
+.aiovg .btn-success.active.focus,
+.aiovg .open > .dropdown-toggle.btn-success.focus {
+  color: #ffffff;
+  background-color: #398439;
+  border-color: #255625;
+}
+.aiovg .btn-success:active,
+.aiovg .btn-success.active,
+.aiovg .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.aiovg .btn-success.disabled:hover,
+.aiovg .btn-success[disabled]:hover,
+.aiovg fieldset[disabled] .btn-success:hover,
+.aiovg .btn-success.disabled:focus,
+.aiovg .btn-success[disabled]:focus,
+.aiovg fieldset[disabled] .btn-success:focus,
+.aiovg .btn-success.disabled.focus,
+.aiovg .btn-success[disabled].focus,
+.aiovg fieldset[disabled] .btn-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.aiovg .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.aiovg .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.aiovg .btn-info:focus,
+.aiovg .btn-info.focus {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+.aiovg .btn-info:hover {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.aiovg .btn-info:active,
+.aiovg .btn-info.active,
+.aiovg .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.aiovg .btn-info:active:hover,
+.aiovg .btn-info.active:hover,
+.aiovg .open > .dropdown-toggle.btn-info:hover,
+.aiovg .btn-info:active:focus,
+.aiovg .btn-info.active:focus,
+.aiovg .open > .dropdown-toggle.btn-info:focus,
+.aiovg .btn-info:active.focus,
+.aiovg .btn-info.active.focus,
+.aiovg .open > .dropdown-toggle.btn-info.focus {
+  color: #ffffff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.aiovg .btn-info:active,
+.aiovg .btn-info.active,
+.aiovg .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.aiovg .btn-info.disabled:hover,
+.aiovg .btn-info[disabled]:hover,
+.aiovg fieldset[disabled] .btn-info:hover,
+.aiovg .btn-info.disabled:focus,
+.aiovg .btn-info[disabled]:focus,
+.aiovg fieldset[disabled] .btn-info:focus,
+.aiovg .btn-info.disabled.focus,
+.aiovg .btn-info[disabled].focus,
+.aiovg fieldset[disabled] .btn-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.aiovg .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.aiovg .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.aiovg .btn-warning:focus,
+.aiovg .btn-warning.focus {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+.aiovg .btn-warning:hover {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.aiovg .btn-warning:active,
+.aiovg .btn-warning.active,
+.aiovg .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.aiovg .btn-warning:active:hover,
+.aiovg .btn-warning.active:hover,
+.aiovg .open > .dropdown-toggle.btn-warning:hover,
+.aiovg .btn-warning:active:focus,
+.aiovg .btn-warning.active:focus,
+.aiovg .open > .dropdown-toggle.btn-warning:focus,
+.aiovg .btn-warning:active.focus,
+.aiovg .btn-warning.active.focus,
+.aiovg .open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+.aiovg .btn-warning:active,
+.aiovg .btn-warning.active,
+.aiovg .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.aiovg .btn-warning.disabled:hover,
+.aiovg .btn-warning[disabled]:hover,
+.aiovg fieldset[disabled] .btn-warning:hover,
+.aiovg .btn-warning.disabled:focus,
+.aiovg .btn-warning[disabled]:focus,
+.aiovg fieldset[disabled] .btn-warning:focus,
+.aiovg .btn-warning.disabled.focus,
+.aiovg .btn-warning[disabled].focus,
+.aiovg fieldset[disabled] .btn-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.aiovg .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.aiovg .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.aiovg .btn-danger:focus,
+.aiovg .btn-danger.focus {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+.aiovg .btn-danger:hover {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.aiovg .btn-danger:active,
+.aiovg .btn-danger.active,
+.aiovg .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.aiovg .btn-danger:active:hover,
+.aiovg .btn-danger.active:hover,
+.aiovg .open > .dropdown-toggle.btn-danger:hover,
+.aiovg .btn-danger:active:focus,
+.aiovg .btn-danger.active:focus,
+.aiovg .open > .dropdown-toggle.btn-danger:focus,
+.aiovg .btn-danger:active.focus,
+.aiovg .btn-danger.active.focus,
+.aiovg .open > .dropdown-toggle.btn-danger.focus {
+  color: #ffffff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+.aiovg .btn-danger:active,
+.aiovg .btn-danger.active,
+.aiovg .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.aiovg .btn-danger.disabled:hover,
+.aiovg .btn-danger[disabled]:hover,
+.aiovg fieldset[disabled] .btn-danger:hover,
+.aiovg .btn-danger.disabled:focus,
+.aiovg .btn-danger[disabled]:focus,
+.aiovg fieldset[disabled] .btn-danger:focus,
+.aiovg .btn-danger.disabled.focus,
+.aiovg .btn-danger[disabled].focus,
+.aiovg fieldset[disabled] .btn-danger.focus {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.aiovg .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.aiovg .btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+.aiovg .btn-link,
+.aiovg .btn-link:active,
+.aiovg .btn-link.active,
+.aiovg .btn-link[disabled],
+.aiovg fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.aiovg .btn-link,
+.aiovg .btn-link:hover,
+.aiovg .btn-link:focus,
+.aiovg .btn-link:active {
+  border-color: transparent;
+}
+.aiovg .btn-link:hover,
+.aiovg .btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.aiovg .btn-link[disabled]:hover,
+.aiovg fieldset[disabled] .btn-link:hover,
+.aiovg .btn-link[disabled]:focus,
+.aiovg fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+.aiovg .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.aiovg .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.aiovg .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.aiovg .btn-block {
+  display: block;
+  width: 100%;
+}
+.aiovg .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.aiovg input[type="submit"].btn-block,
+.aiovg input[type="reset"].btn-block,
+.aiovg input[type="button"].btn-block {
+  width: 100%;
+}
+.aiovg .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.aiovg .input-group[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.aiovg .input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.aiovg .input-group .form-control:focus {
+  z-index: 3;
+}
+.aiovg .input-group-lg > .form-control,
+.aiovg .input-group-lg > .input-group-addon,
+.aiovg .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.aiovg select.input-group-lg > .form-control,
+.aiovg select.input-group-lg > .input-group-addon,
+.aiovg select.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+.aiovg textarea.input-group-lg > .form-control,
+.aiovg textarea.input-group-lg > .input-group-addon,
+.aiovg textarea.input-group-lg > .input-group-btn > .btn,
+.aiovg select[multiple].input-group-lg > .form-control,
+.aiovg select[multiple].input-group-lg > .input-group-addon,
+.aiovg select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+.aiovg .input-group-sm > .form-control,
+.aiovg .input-group-sm > .input-group-addon,
+.aiovg .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.aiovg select.input-group-sm > .form-control,
+.aiovg select.input-group-sm > .input-group-addon,
+.aiovg select.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+.aiovg textarea.input-group-sm > .form-control,
+.aiovg textarea.input-group-sm > .input-group-addon,
+.aiovg textarea.input-group-sm > .input-group-btn > .btn,
+.aiovg select[multiple].input-group-sm > .form-control,
+.aiovg select[multiple].input-group-sm > .input-group-addon,
+.aiovg select[multiple].input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+.aiovg .input-group-addon,
+.aiovg .input-group-btn,
+.aiovg .input-group .form-control {
+  display: table-cell;
+}
+.aiovg .input-group-addon:not(:first-child):not(:last-child),
+.aiovg .input-group-btn:not(:first-child):not(:last-child),
+.aiovg .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.aiovg .input-group-addon,
+.aiovg .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.aiovg .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.aiovg .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.aiovg .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.aiovg .input-group-addon input[type="radio"],
+.aiovg .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+.aiovg .input-group .form-control:first-child,
+.aiovg .input-group-addon:first-child,
+.aiovg .input-group-btn:first-child > .btn,
+.aiovg .input-group-btn:first-child > .btn-group > .btn,
+.aiovg .input-group-btn:first-child > .dropdown-toggle,
+.aiovg .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.aiovg .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.aiovg .input-group-addon:first-child {
+  border-right: 0;
+}
+.aiovg .input-group .form-control:last-child,
+.aiovg .input-group-addon:last-child,
+.aiovg .input-group-btn:last-child > .btn,
+.aiovg .input-group-btn:last-child > .btn-group > .btn,
+.aiovg .input-group-btn:last-child > .dropdown-toggle,
+.aiovg .input-group-btn:first-child > .btn:not(:first-child),
+.aiovg .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.aiovg .input-group-addon:last-child {
+  border-left: 0;
+}
+.aiovg .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+.aiovg .input-group-btn > .btn {
+  position: relative;
+}
+.aiovg .input-group-btn > .btn + .btn {
+  margin-left: -1px;
+}
+.aiovg .input-group-btn > .btn:hover,
+.aiovg .input-group-btn > .btn:focus,
+.aiovg .input-group-btn > .btn:active {
+  z-index: 2;
+}
+.aiovg .input-group-btn:first-child > .btn,
+.aiovg .input-group-btn:first-child > .btn-group {
+  margin-right: -1px;
+}
+.aiovg .input-group-btn:last-child > .btn,
+.aiovg .input-group-btn:last-child > .btn-group {
+  z-index: 2;
+  margin-left: -1px;
+}
+.aiovg .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.aiovg .pagination > li {
+  display: inline;
+}
+.aiovg .pagination > li > a,
+.aiovg .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #337ab7;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+.aiovg .pagination > li:first-child > a,
+.aiovg .pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.aiovg .pagination > li:last-child > a,
+.aiovg .pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.aiovg .pagination > li > a:hover,
+.aiovg .pagination > li > span:hover,
+.aiovg .pagination > li > a:focus,
+.aiovg .pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eeeeee;
+  border-color: #dddddd;
+}
+.aiovg .pagination > .active > a,
+.aiovg .pagination > .active > span,
+.aiovg .pagination > .active > a:hover,
+.aiovg .pagination > .active > span:hover,
+.aiovg .pagination > .active > a:focus,
+.aiovg .pagination > .active > span:focus {
+  z-index: 3;
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.aiovg .pagination > .disabled > span,
+.aiovg .pagination > .disabled > span:hover,
+.aiovg .pagination > .disabled > span:focus,
+.aiovg .pagination > .disabled > a,
+.aiovg .pagination > .disabled > a:hover,
+.aiovg .pagination > .disabled > a:focus {
+  color: #777777;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+.aiovg .pagination-lg > li > a,
+.aiovg .pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.aiovg .pagination-lg > li:first-child > a,
+.aiovg .pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.aiovg .pagination-lg > li:last-child > a,
+.aiovg .pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.aiovg .pagination-sm > li > a,
+.aiovg .pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.aiovg .pagination-sm > li:first-child > a,
+.aiovg .pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.aiovg .pagination-sm > li:last-child > a,
+.aiovg .pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.aiovg .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.aiovg .thumbnail > img,
+.aiovg .thumbnail a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.aiovg a.thumbnail:hover,
+.aiovg a.thumbnail:focus,
+.aiovg a.thumbnail.active {
+  border-color: #337ab7;
+}
+.aiovg .thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+.aiovg .clearfix:before,
+.aiovg .clearfix:after,
+.aiovg .container:before,
+.aiovg .container:after,
+.aiovg .container-fluid:before,
+.aiovg .container-fluid:after,
+.aiovg .row:before,
+.aiovg .row:after,
+.aiovg .form-horizontal .form-group:before,
+.aiovg .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+.aiovg .clearfix:after,
+.aiovg .container:after,
+.aiovg .container-fluid:after,
+.aiovg .row:after,
+.aiovg .form-horizontal .form-group:after {
+  clear: both;
+}
+.aiovg .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aiovg .pull-right {
+  float: right !important;
+}
+.aiovg .pull-left {
+  float: left !important;
+}
+.aiovg .hide {
+  display: none !important;
+}
+.aiovg .show {
+  display: block !important;
+}
+.aiovg .invisible {
+  visibility: hidden;
+}
+.aiovg .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.aiovg .hidden {
+  display: none !important;
+}
+.aiovg .affix {
+  position: fixed;
+}

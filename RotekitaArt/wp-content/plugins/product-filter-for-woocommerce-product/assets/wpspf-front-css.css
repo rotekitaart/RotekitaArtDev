@@ -1,0 +1,193 @@
+.wpspf-pr-widget .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: left;
+}
+
+.wpspf-pr-widget .control-group {
+  display: inline-block;
+  vertical-align: top;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 200px;
+  height: 210px;
+  margin: 10px;
+}
+.wpspf-pr-widget .control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+.wpspf-pr-widget .control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.wpspf-pr-widget .control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.wpspf-pr-widget .control--radio .control__indicator {
+  border-radius: 50%;
+}
+.wpspf-pr-widget .control:hover input ~ .control__indicator,
+.wpspf-pr-widget .control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.wpspf-pr-widget .control input:checked ~ .control__indicator {
+  background: #2aa1c0;
+}
+.wpspf-pr-widget .control:hover input:not([disabled]):checked ~ .control__indicator,
+.wpspf-pr-widget .control input:checked:focus ~ .control__indicator {
+  background: #0e647d;
+}
+.wpspf-pr-widget .control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.wpspf-pr-widget .control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.wpspf-pr-widget .control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.wpspf-pr-widget .control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.wpspf-pr-widget .control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+.wpspf-pr-widget .control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.wpspf-pr-widget .control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+.wpspf-pr-widget .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.wpspf-pr-widget .select select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #e6e6e6;
+  color: #7b7b7b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.wpspf-pr-widget .select select::-ms-expand {
+  display: none;
+}
+.wpspf-pr-widget .select select:hover,
+.wpspf-pr-widget .select select:focus {
+  color: #000;
+  background: #ccc;
+}
+.wpspf-pr-widget .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.wpspf-pr-widget .select__arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.wpspf-pr-widget .select select:hover ~ .select__arrow,
+.wpspf-pr-widget .select select:focus ~ .select__arrow {
+  border-top-color: #000;
+}
+.wpspf-pr-widget .select select:disabled ~ .select__arrow {
+  border-top-color: #ccc;
+}
+.wpspf-pr-widget .color-box {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.wpspf-pr-widget .reset-color-box {
+  border: none !important;
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+
+.wpspf-category-collapse::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  content: "+";
+  margin-right: 3px;
+}
+.wpspf-category-expand::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  content: "-";
+  margin-right: 3px;
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #FFF;
+}
+.selected-category{
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+
+.wpspf-category li span{
+  cursor: pointer;
+}
