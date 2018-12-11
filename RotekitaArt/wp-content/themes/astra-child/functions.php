@@ -11,6 +11,13 @@ function my_theme_enqueue_styles() {
 }
 
 add_action ('wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+add_action( 'admin_init', 'disable_autosave' );
+
+function disable_autosave() {
+        wp_deregister_script( 'autosave' );
+}
+
 ?>
 
 <?php
