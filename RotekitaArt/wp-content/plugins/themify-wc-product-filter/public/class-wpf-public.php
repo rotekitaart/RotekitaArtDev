@@ -195,11 +195,13 @@ class WPF_Public {
         $slug = !empty($_REQUEST['id']) ? sanitize_key($_REQUEST['id']) : $this->shortcode_id;
         $option = WPF_Options::get_option($this->plugin_name, $this->version);
         $forms = $option->get();
+	$is_infinity = '';
         if (!empty($forms[$slug])) {
             $template = $forms[$slug];
             $is_result_page = (!empty($template['data']['result_type']) && $template['data']['result_type'] === 'same_page' ) || self::$result_page == $template['data']['page'];
             $show_result_in_same_page = isset($template['data']['result_type']) && $template['data']['result_type'] === 'same_page';
             $show_form_in_results = !isset($template['data']['show_form_in_results']) || $template['data']['show_form_in_results'] !== 'show_form_in_results' ? false : true;
+	    $is_infinity = isset($template['data']['pagination_type']) && $template['data']['pagination_type']!=='pagination'?' wpf_infinity_container':'';
             if ($is_result_page && !$show_result_in_same_page && $show_form_in_results) {
                 $request = array();
                 $this->shortcode_id = $slug;
@@ -216,10 +218,10 @@ class WPF_Public {
             }
         }
         if (is_woocommerce()) {
-            echo '<div data-slug="' . $slug . '" class="wpf-search-container">';
+            echo '<div data-slug="' . $slug . '" class="wpf-search-container'.$is_infinity.'">';
         } else {
 
-            return $content . '<div data-slug="' . $slug . '" class="wpf-search-container">' . self::$result . '</div>';
+            return $content . '<div data-slug="' . $slug . '" class="wpf-search-container'.$is_infinity.'">' . self::$result . '</div>';
         }
     }
 
@@ -302,7 +304,7 @@ class WPF_Public {
                 add_filter('woocommerce_page_title', array($this, 'get_page_title'));
             }
             add_filter('post_class', array($this, 'post_classes'), 10, 1);
-            $sort_bar = !is_woocommerce() && (empty($form['data']['result']) || empty($form['data']['sort']));
+            $sort_bar = !is_woocommerce() && (empty($form['data']['result']) || empty($form['data']['sort']));		
             query_posts(apply_filters('wpf_query', $query_args));
 			
             if ($sort_bar) {
@@ -326,7 +328,6 @@ class WPF_Public {
                 remove_filter('woocommerce_page_title', array($this, 'get_page_title'));
             }
             remove_filter('post_class', array($this, 'post_classes'), 10, 1);
-
             if ($sort_bar) {
                 $wp_query->is_post_type_archive = $is_post_type_archive;
             }
@@ -340,7 +341,7 @@ class WPF_Public {
         $data = $form['data'];
         if ($build) {
             $query_args = array(
-                'post_type' => array('product', 'product_variation'),
+                'post_type' => 'product',
                 'post_status' => 'publish',
                 'wc_query'=>1,
                 'is_paginated'=>1,

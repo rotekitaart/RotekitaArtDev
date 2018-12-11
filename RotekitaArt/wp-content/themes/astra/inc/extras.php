@@ -311,6 +311,10 @@ if ( ! function_exists( 'astra_get_dynamic_header_content' ) ) {
 					$output[] = astra_get_custom_widget( $option );
 				break;
 
+			case 'button':
+					$output[] = astra_get_custom_button( $option . '-button-text', $option . '-button-link', $option . '-button-style' );
+				break;
+
 			default:
 					$output[] = apply_filters( 'astra_get_dynamic_header_content', '', $option, $section );
 				break;
@@ -372,6 +376,44 @@ if ( ! function_exists( 'astra_get_custom_html' ) ) {
 			$custom_html = '<div class="ast-custom-html">' . do_shortcode( $custom_html_content ) . '</div>';
 		} elseif ( current_user_can( 'edit_theme_options' ) ) {
 			$custom_html = '<a href="' . esc_url( admin_url( 'customize.php?autofocus[control]=' . ASTRA_THEME_SETTINGS . '[' . $option_name . ']' ) ) . '">' . __( 'Add Custom HTML', 'astra' ) . '</a>';
+		}
+
+		return $custom_html;
+	}
+}
+
+/**
+ * Get custom Button.
+ */
+if ( ! function_exists( 'astra_get_custom_button' ) ) {
+
+	/**
+	 * Get custom HTML added by user.
+	 *
+	 * @since 1.0.0
+	 * @param  string $button_text Button Text.
+	 * @param  string $button_link Button Link.
+	 * @param  string $button_style Button Style.
+	 * @return String Button added by user in options panel.
+	 */
+	function astra_get_custom_button( $button_text = '', $button_link = '', $button_style = '' ) {
+
+		$custom_html    = '';
+		$button_classes = '';
+		$button_text    = astra_get_option( $button_text );
+		$button_link    = astra_get_option( $button_link );
+		$button_style   = astra_get_option( $button_style );
+		$outside_menu   = astra_get_option( 'header-display-outside-menu' );
+
+		$button_classes = ( 'theme-button' === $button_style ? 'ast-button' : 'ast-custom-button' );
+
+		$outside_menu_item = apply_filters( 'astra_convert_link_to_button', $outside_menu );
+
+		if ( '1' == $outside_menu_item ) {
+			$custom_html = '<a class="ast-custom-button-link" href="' . esc_url( do_shortcode( $button_link ) ) . '"><button class=' . esc_attr( $button_classes ) . '>' . esc_attr( do_shortcode( $button_text ) ) . '</button></a>';
+		} else {
+			$custom_html  = '<a class="ast-custom-button-link" href="' . esc_url( do_shortcode( $button_link ) ) . '"><button class=' . esc_attr( $button_classes ) . '>' . esc_attr( do_shortcode( $button_text ) ) . '</button></a>';
+			$custom_html .= '<a class="menu-link" href="' . esc_url( do_shortcode( $button_link ) ) . '">' . esc_attr( do_shortcode( $button_text ) ) . '</a>';
 		}
 
 		return $custom_html;

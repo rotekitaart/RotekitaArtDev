@@ -47,20 +47,6 @@ if ( ! class_exists( 'CZR_customize' ) ) :
 
       //load resources class
       $this -> czr_fn_fire_czr_resources();
-
-      // WP 5.0.0 compat. until the bug is fixed
-      // this hook fires before the customize changeset is inserter / updated in database
-      // Removing the wp_targeted_link_rel callback from the 'content_save_pre' filter prevents corrupting the changeset JSON
-      // more details in this ticket : https://core.trac.wordpress.org/ticket/45292
-      add_action( 'customize_save_validation_before', array( $this, 'czr_fn_remove_callback_wp_targeted_link_rel' ) );
-
-    }
-
-    // Fired @'customize_save_validation_before'
-    function czr_fn_remove_callback_wp_targeted_link_rel( $wp_customize ) {
-        if ( false !== has_filter( 'content_save_pre', 'wp_targeted_link_rel' ) ) {
-            remove_filter( 'content_save_pre', 'wp_targeted_link_rel' );
-        }
     }
 
 
@@ -952,7 +938,7 @@ if ( ! class_exists( 'CZR_controls' ) ) :
               <?php endif; ?>
               <label>
                 <span class="customize-control-title"><?php echo $this->label; ?></span>
-                <?php $this -> czr_fn_print_select_control( in_array( $this->id, array( CZR_THEME_OPTIONS.'[tc_fonts]', CZR_THEME_OPTIONS.'[tc_skin]' ) ) ? 'select2 no-selecter-js' : '' ) ?>
+                <?php $this -> czr_fn_print_select_control( in_array( $this->id, array( CZR_THEME_OPTIONS.'[tc_fonts]', CZR_THEME_OPTIONS.'[tc_skin]' ) ) ? 'czrSelect2 no-selecter-js' : '' ) ?>
                 <?php if(!empty( $this -> notice)) : ?>
                   <span class="czr-notice"><?php echo $this -> notice ?></span>
                 <?php endif; ?>
@@ -1150,25 +1136,6 @@ if ( ! class_exists( 'CZR_controls' ) ) :
 
         wp_enqueue_script( 'wp-color-picker' );
         wp_enqueue_style( 'wp-color-picker' );
-
-        // wp_enqueue_style(
-        //   'font-awesome',
-        //   sprintf('%1$s/css/fontawesome-all.min.css', CZR_BASE_URL . 'assets/shared/fonts/fa' ),
-        //   array(),
-        //   CUSTOMIZR_VER,
-        //   $media = 'all'
-        // );
-
-
-        // //select2 stylesheet
-        // //overriden by some specific style in theme-customzer-control.css
-        // wp_enqueue_style(
-        //   'select2-css',
-        //   sprintf('%1$sassets/czr/css/lib/select2.min.css', CZR_BASE_URL ),
-        //   array( 'customize-controls' ),
-        //   CUSTOMIZR_VER,
-        //   $media = 'all'
-        // );
     }
 
     /**
@@ -1361,7 +1328,7 @@ if ( ! class_exists( 'CZR_Customize_Multipicker_Categories_Control' ) ) :
               'echo'               => 0 ,
               'walker'             => new CZR_Walker_CategoryDropdown_Multipicker(),
               'hierarchical'       => 1,
-              'class'              => 'select2 no-selecter-js '.$this->type,
+              'class'              => 'czrSelect2 no-selecter-js '.$this->type,
               'selected'           => implode(',', $this->value() )
           )
       );

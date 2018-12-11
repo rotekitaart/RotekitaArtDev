@@ -13,7 +13,7 @@ define( 'SHOP_ISLE_PHP_INCLUDE', get_template_directory() . '/inc' );
  */
 
 if ( ! defined( 'SI_VERSION' ) ) {
-	define( 'SI_VERSION', '1.1.49' );
+	define( 'SI_VERSION', '1.1.50' );
 }
 
 /**
@@ -349,7 +349,18 @@ function shop_isle_scripts() {
 	if ( class_exists( 'WooCommerce' ) && is_checkout() ) {
 		wp_enqueue_script( 'shop-isle-woo-scripts', get_template_directory_uri() . '/js/woo-scripts.js', array(), '1.0.0', true );
 	}
+
 }
+
+/**
+ * This is a fix for the meta wysiwyg in Gutenberg. Remove this function and the script when they'll fix it in core.
+ * See https://github.com/WordPress/gutenberg/issues/7176
+ */
+function shop_isle_gutenberg_meta_fix() {
+	wp_enqueue_script( 'wysiwyg-gutenberg-fix', get_template_directory_uri() . '/js/wysiwyg-gutenberg-fix.js', array( 'jquery' ), SI_VERSION );
+}
+add_action( 'enqueue_block_editor_assets', 'shop_isle_gutenberg' );
+
 
 /**
  * Enqueue Admin Styles

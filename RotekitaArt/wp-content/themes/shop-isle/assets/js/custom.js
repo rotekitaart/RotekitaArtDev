@@ -1,5 +1,52 @@
 (function($){
 
+	$.shopIsle = {
+		sidebarToggle: function ( ) {
+			if ( $( '.sidebar-shop' ).length <= 0 ) {
+				return;
+			}
+
+			var sidebarOrientation = 'left';
+
+			if ( $( 'body.rtl' ).length !== 0 ) {
+				sidebarOrientation = 'right';
+			}
+
+			$( '.shop-isle-sidebar-open' ).click(function(){
+				$( '.sidebar-shop' ).css( sidebarOrientation, '0' );
+			});
+
+			$( '.shop-isle-sidebar-close' ).click(function(){
+				$( '.sidebar-shop' ).css(sidebarOrientation, '-100%');
+			});
+
+			$(window).resize(function (  ) {
+				$( '.sidebar-shop' ).css( sidebarOrientation, '-100%' );
+				if( $(window).width() > 768 ){
+					$( '.sidebar-shop' ).css( sidebarOrientation, '0' );
+				}
+			});
+		}
+	}
+	jQuery( window ).load(function(){
+		jQuery.shopIsle.sidebarToggle();
+	});
+
+	/* ---------------------------------------------- /*
+			* Woocommerce Shop Sidebar
+			/* ---------------------------------------------- */
+
+	// if ( $( '.sidebar-shop' ).length > 0 ) {
+	//
+	//
+	//
+	// }
+	// else {
+	// 	if ( $(window).width() <= 768 ) {
+	// 		$( '.woocommerce-ordering' ).css( 'width', '100%' );
+	// 	}
+	// }
+
 	/* ---------------------------------------------- /*
 	 * Preloader
 	/* ---------------------------------------------- */
@@ -10,6 +57,8 @@
 			$( '.page-loader' ).delay( 350 ).fadeOut( 'slow' );
 		}
 	);
+
+
 
 	$( document ).ready(
 		function() {
@@ -109,28 +158,6 @@
 						useCSS: true
 					}
 				);
-			}
-
-			/* ---------------------------------------------- /*
-			* Woocommerce Shop Sidebar
-			/* ---------------------------------------------- */
-
-			if ( $( '.sidebar-shop' ).length > 0 ) {
-				var sidebarOrientation = 'left';
-				if ( $( 'body.rtl' ).length !== 0 ) {
-                    sidebarOrientation = 'right';
-                }
-                $( '.shop-isle-sidebar-open' ).click(function(){
-					$( '.sidebar-shop' ).css( sidebarOrientation, '0' );
-				})	
-				$( '.shop-isle-sidebar-close' ).click(function(){
-						$( '.sidebar-shop' ).css(sidebarOrientation, '-100%');
-				})	
-			}
-			else {
-				if ( $(window).width() <= 768 ) {
-					$( '.woocommerce-ordering' ).css( 'width', '100%' );
-				}
 			}
 			
 			/* ---------------------------------------------- /*

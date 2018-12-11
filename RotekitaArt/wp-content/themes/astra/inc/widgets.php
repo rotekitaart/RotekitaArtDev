@@ -147,46 +147,58 @@ if ( ! function_exists( 'astra_widgets_init' ) ) :
 		 * Register Footer Widgets area
 		 */
 		register_sidebar(
-			array(
-				'name'          => esc_html__( 'Footer Widget Area 1', 'astra' ),
-				'id'            => 'advanced-footer-widget-1',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
+			apply_filters(
+				'astra_advanced_footer_widget_1_args',
+				array(
+					'name'          => esc_html__( 'Footer Widget Area 1', 'astra' ),
+					'id'            => 'advanced-footer-widget-1',
+					'before_widget' => '<div id="%1$s" class="widget %2$s">',
+					'after_widget'  => '</div>',
+					'before_title'  => '<h2 class="widget-title">',
+					'after_title'   => '</h2>',
+				)
 			)
 		);
 
 		register_sidebar(
-			array(
-				'name'          => esc_html__( 'Footer Widget Area 2', 'astra' ),
-				'id'            => 'advanced-footer-widget-2',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
+			apply_filters(
+				'astra_advanced_footer_widget_2_args',
+				array(
+					'name'          => esc_html__( 'Footer Widget Area 2', 'astra' ),
+					'id'            => 'advanced-footer-widget-2',
+					'before_widget' => '<div id="%1$s" class="widget %2$s">',
+					'after_widget'  => '</div>',
+					'before_title'  => '<h2 class="widget-title">',
+					'after_title'   => '</h2>',
+				)
 			)
 		);
 
 		register_sidebar(
-			array(
-				'name'          => esc_html__( 'Footer Widget Area 3', 'astra' ),
-				'id'            => 'advanced-footer-widget-3',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
+			apply_filters(
+				'astra_advanced_footer_widget_3_args',
+				array(
+					'name'          => esc_html__( 'Footer Widget Area 3', 'astra' ),
+					'id'            => 'advanced-footer-widget-3',
+					'before_widget' => '<div id="%1$s" class="widget %2$s">',
+					'after_widget'  => '</div>',
+					'before_title'  => '<h2 class="widget-title">',
+					'after_title'   => '</h2>',
+				)
 			)
 		);
 
 		register_sidebar(
-			array(
-				'name'          => esc_html__( 'Footer Widget Area 4', 'astra' ),
-				'id'            => 'advanced-footer-widget-4',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h2 class="widget-title">',
-				'after_title'   => '</h2>',
+			apply_filters(
+				'astra_advanced_footer_widget_4_args',
+				array(
+					'name'          => esc_html__( 'Footer Widget Area 4', 'astra' ),
+					'id'            => 'advanced-footer-widget-4',
+					'before_widget' => '<div id="%1$s" class="widget %2$s">',
+					'after_widget'  => '</div>',
+					'before_title'  => '<h2 class="widget-title">',
+					'after_title'   => '</h2>',
+				)
 			)
 		);
 	}

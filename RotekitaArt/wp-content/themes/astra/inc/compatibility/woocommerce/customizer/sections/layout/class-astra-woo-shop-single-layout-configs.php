@@ -45,6 +45,20 @@ if ( ! class_exists( 'Astra_Woo_Shop_Single_Layout_Configs' ) ) {
 					'title'    => __( 'Disable Breadcrumb', 'astra' ),
 					'priority' => 10,
 				),
+
+				/**
+				 * Option: Disable Transparent Header on WooCommerce Product pages
+				 */
+				array(
+					'name'     => ASTRA_THEME_SETTINGS . '[transparent-header-disable-woo-products]',
+					'default'  => astra_get_option( 'transparent-header-disable-woo-products' ),
+					'type'     => 'control',
+					'section'  => 'section-transparent-header',
+					'title'    => __( 'Disable on WooCommerce Product Pages?', 'astra' ),
+					'required' => array( ASTRA_THEME_SETTINGS . '[transparent-header-enable]', '==', '1' ),
+					'priority' => 26,
+					'control'  => 'checkbox',
+				),
 			);
 
 			return array_merge( $configurations, $_configs );

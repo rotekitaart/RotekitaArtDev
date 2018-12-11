@@ -1,4 +1,13 @@
 
+ ### v2.2.44 - 2018-12-03 
+ **Changes:** 
+ * Fix the problem with map section in microsoft edge
+* Fix the problem with woocommerce notice on product page
+* Fix the description metabox in gutenberg
+* Fix the issue with woocommerce sidebar not appearing on desktop resolution after clicking on x button on mobile resolution
+* Fix view Quick View button on shop page in mobile resolution
+* Some styling issues fixed
+ 
  ### v2.2.43 - 2018-10-30 
  **Changes:** 
  * Recommend Image optimization service by Optimole

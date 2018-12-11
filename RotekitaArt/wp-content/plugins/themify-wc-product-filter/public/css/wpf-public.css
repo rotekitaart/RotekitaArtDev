@@ -8,8 +8,6 @@
 /************************************************************************************/
 .wpf_form * {
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
 }
 .wpf_form{
     margin: 0 0 1em;
@@ -41,10 +39,7 @@
     text-indent: -9999em;
     border: 1.1em solid rgba(0,0,0, 0.2);
     border-left: 1.1em solid #000000;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-animation: wpf_loader 1.1s infinite linear;
     animation: wpf_loader 1.1s infinite linear;
     display:none;
     position: absolute;
@@ -56,28 +51,16 @@
     top: auto;
     bottom: 0;
 }
-@-webkit-keyframes wpf_loader {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
 @keyframes wpf_loader {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 .wpf-container-wait .wpf-search-wait{
-	display:block;
+    display:block;
 }
 .wpf_item .wpf_item_name{
     font-weight: bold;
@@ -147,7 +130,6 @@
     vertical-align: middle;
     width: 20px;
     -webkit-appearance: none;
-    -webkit-transition: .05s border-color ease-in-out;
     transition: .05s border-color ease-in-out;
     font-size: 16px;
     font-family: 'themify';
@@ -218,8 +200,6 @@
     margin-bottom: .8em;
     position: relative;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     text-align: center;
 }
 .wpf_color_icons .wpf_item_count {
@@ -230,8 +210,6 @@
 }
 .wpf_color_icons:not(.wpf_hide_text) li>input:checked+label{
     opacity: .25;
-    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.35);
     box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.35);
 }
 .wpf_hide_text li label{
@@ -260,8 +238,6 @@
     text-transform: uppercase;
     padding: 0.8em;
     -webkit-appearance: none;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
     transition: all .3s linear;
     outline: none;
 }
@@ -595,10 +571,7 @@ Hierachy Tree
     font-size: 0.65em;
     border: .4em solid rgba(0,0,0, 0.2);
     border-left: .4em solid #000000;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-animation: wpf_loader 1.1s infinite linear;
     animation: wpf_loader 1.1s infinite linear;
     position: absolute;
     top: .5em;
@@ -609,23 +582,20 @@ Hierachy Tree
 .wpf-container-wait .wpf_infinity a:before{
     display: block;
 }
-@-webkit-keyframes wpf_loader {
+@keyframes wpf_loader {
     0% {
-        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     100% {
-        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
-@keyframes wpf_loader {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+.wpf_infinity_container .product.wpf_transient_product{
+	opacity:0;
+	visibility:hidden;
+	transition:.5s opacity ease-in-out;
+}
+.wpf_infinity_container .product.wpf_transient_end_product{
+	opacity:1;
+	visibility:visible;
 }

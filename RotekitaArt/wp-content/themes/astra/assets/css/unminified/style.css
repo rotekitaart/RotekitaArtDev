@@ -2592,7 +2592,8 @@ body {
   padding-left: 0;
 }
 
-.ast-header-break-point .main-navigation ul li a {
+.ast-header-break-point .main-navigation ul li a,
+.ast-header-break-point .main-navigation ul .button-custom-menu-item a {
   padding: 0 20px;
   display: inline-block;
   width: 100%;
@@ -3395,6 +3396,31 @@ body {
   box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
 }
 
+.ast-header-custom-item-inside .button-custom-menu-item .menu-link {
+  display: none;
+}
+
+.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .ast-custom-button-link {
+  display: none;
+}
+
+.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .menu-link {
+  display: block;
+}
+
+.button-custom-menu-item .ast-custom-button-link .ast-custom-button {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
 /* 4 - Header Main */
 /**
  *  Header Sections
@@ -3497,6 +3523,10 @@ body {
 
 .main-header-bar .ast-search-menu-icon form {
   background-color: #ffffff;
+}
+
+.ast-flyout-menu-enable .main-header-bar .ast-masthead-custom-menu-items .ast-custom-button-link {
+  border: none;
 }
 
 @media (max-width: 768px) {

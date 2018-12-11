@@ -72,7 +72,7 @@ add_action( 'woocommerce_after_main_content', 'shop_isle_search_products_no_resu
 remove_action( 'woocommerce_before_single_product', 'action_woocommerce_before_single_product', 10, 1 );
 remove_action( 'woocommerce_after_single_product', 'action_woocommerce_after_single_product', 10, 1 );
 
-add_action( 'woocommerce_before_single_product', 'shop_isle_product_page_wrapper', 10, 1 );
+add_action( 'woocommerce_before_single_product', 'shop_isle_product_page_wrapper', 9, 1 );
 add_action( 'woocommerce_before_single_product', 'woocommerce_breadcrumb', 11 );
 add_action( 'woocommerce_after_single_product', 'shop_isle_product_page_wrapper_end', 10, 1 );
 

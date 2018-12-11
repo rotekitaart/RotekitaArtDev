@@ -379,6 +379,50 @@ if ( ! class_exists( 'Astra_Customizer_Register_Sections_Panels' ) ) {
 				),
 
 				/**
+				 * Theme Buttons
+				 */
+				array(
+					'name'     => 'section-theme-button',
+					'type'     => 'section',
+					'priority' => 10,
+					'title'    => __( 'Theme Button', 'astra' ),
+					'section'  => 'section-buttons',
+				),
+
+				/**
+				 * Header Buttons
+				 */
+				array(
+					'name'     => 'section-header-button',
+					'type'     => 'section',
+					'priority' => 10,
+					'title'    => __( 'Header Button', 'astra' ),
+					'section'  => 'section-buttons',
+				),
+
+				/**
+				 * Header Button - Default
+				 */
+				array(
+					'name'     => 'section-header-button-default',
+					'type'     => 'section',
+					'priority' => 10,
+					'title'    => __( 'Default Button', 'astra' ),
+					'section'  => 'section-header-button',
+				),
+
+				/**
+				 * Header Button - Transparent
+				 */
+				array(
+					'name'     => 'section-header-button-transparent',
+					'type'     => 'section',
+					'priority' => 10,
+					'title'    => __( 'Transparent Header Button', 'astra' ),
+					'section'  => 'section-header-button',
+				),
+
+				/**
 				 * Widget Areas Section
 				 */
 				array(

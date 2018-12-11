@@ -182,8 +182,17 @@ if ( ! class_exists( 'Astra_Theme_Update' ) ) {
 			if ( version_compare( $saved_version, '1.5.1', '<' ) ) {
 				self::v_1_5_1();
 			}
+
 			if ( version_compare( $saved_version, '1.5.2', '<' ) ) {
 				self::v_1_5_2();
+			}
+
+			if ( version_compare( $saved_version, '1.6.0', '<' ) ) {
+				self::v_1_6_0();
+			}
+
+			if ( version_compare( $saved_version, '1.6.1-alpha.3', '<' ) ) {
+				self::v_1_6_1();
 			}
 
 			// Not have stored?
@@ -903,6 +912,91 @@ if ( ! class_exists( 'Astra_Theme_Update' ) ) {
 			}
 			if ( isset( $theme_options['headings-font-weight'] ) && is_numeric( $theme_options['headings-font-weight'] ) ) {
 				$theme_options['headings-font-variant'] = $theme_options['headings-font-weight'];
+			}
+
+			update_option( 'astra-settings', $theme_options );
+		}
+
+		/**
+		 * Disable transparent header in customizer if the transparent header addon was disabled.
+		 *
+		 * @return void
+		 */
+		public static function v_1_6_0() {
+			$theme_options = get_option( 'astra-settings', array() );
+
+			// Disable Transparent header is Transparent Header addon was deactivated from Astra Pro.
+			if ( is_callable( 'Astra_Ext_Extension::get_enabled_addons' ) ) {
+				$addons = Astra_Ext_Extension::get_enabled_addons();
+
+				// If transparent header is addon was disabled, disable the transparent header.
+				if ( 'transparent-header' !== $addons['transparent-header'] ) {
+					$theme_options['transparent-header-enable'] = 0;
+				}
+			}
+
+			update_option( 'astra-settings', $theme_options );
+		}
+
+		/**
+		 * Add backward compatibility for Heading tags previous default values.
+		 * Set Inline Logo & Site Title as false if user had not changed its value.
+		 * Change default value for blog archive blog title.
+		 *
+		 * @return void
+		 */
+		public static function v_1_6_1() {
+			$theme_options = get_option( 'astra-settings', array() );
+
+			// If user was using a default value for h1, Set the default in the option.
+			if ( ! isset( $theme_options['font-size-h1'] ) ) {
+				$theme_options['font-size-h1'] = array(
+					'desktop'      => '48',
+					'tablet'       => '',
+					'mobile'       => '',
+					'desktop-unit' => 'px',
+					'tablet-unit'  => 'px',
+					'mobile-unit'  => 'px',
+				);
+			}
+			// If user was using a default value for h2, Set the default in the option.
+			if ( ! isset( $theme_options['font-size-h2'] ) ) {
+				$theme_options['font-size-h2'] = array(
+					'desktop'      => '42',
+					'tablet'       => '',
+					'mobile'       => '',
+					'desktop-unit' => 'px',
+					'tablet-unit'  => 'px',
+					'mobile-unit'  => 'px',
+				);
+			}
+			// If user was using a default value for h3, Set the default in the option.
+			if ( ! isset( $theme_options['font-size-h3'] ) ) {
+				$theme_options['font-size-h3'] = array(
+					'desktop'      => '30',
+					'tablet'       => '',
+					'mobile'       => '',
+					'desktop-unit' => 'px',
+					'tablet-unit'  => 'px',
+					'mobile-unit'  => 'px',
+				);
+			}
+
+			// If user was using a default value for h3, Set the default in the option.
+			if ( ! isset( $theme_options['font-size-page-title'] ) ) {
+				$theme_options['font-size-page-title'] = array(
+					'desktop'      => '30',
+					'tablet'       => '',
+					'mobile'       => '',
+					'desktop-unit' => 'px',
+					'tablet-unit'  => 'px',
+					'mobile-unit'  => 'px',
+				);
+			}
+
+			// If inline-logo option was unset previously, set to to false as new default is `true`.
+			if ( ! isset( $theme_options['logo-title-inline'] ) ) {
+				$theme_options['logo-title-inline'] = 0;
 			}
 
 			update_option( 'astra-settings', $theme_options );

@@ -2772,11 +2772,11 @@ Sections
 }
 
 .module-title + .module-subtitle {
-	margin-top: -35px;
+	margin-top: -50px;
 }
 
 .page-header-module .module-subtitle {
-	margin-top: 35px;
+	margin-top: 20px;
 }
 
 .no-results .page-header {
@@ -3141,7 +3141,6 @@ Google map
 #map {
 	position: relative;
 	width: 100%;
-	height: 100%;
 }
 
 #map img {

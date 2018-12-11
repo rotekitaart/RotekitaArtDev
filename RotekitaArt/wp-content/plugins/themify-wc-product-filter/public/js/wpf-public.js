@@ -52,7 +52,7 @@
     };
 
     var InitGroupToggle = function () {
-        $('body').delegate('.wpf_items_grouped:not(.wpf_layout_horizontal) .wpf_item_name', 'click', function (e) {
+        $('body').on( 'click','.wpf_items_grouped:not(.wpf_layout_horizontal) .wpf_item_name', function (e) {
 
             var $wrap = $(this).next('.wpf_items_group'),
                     $this = $(this);
@@ -75,52 +75,53 @@
     };
 
     var InitSubmit = function () {
-		var masonryData, isMasonry;
+        var masonryData, isMasonry;
 
-        $('body').delegate('.wpf_form', 'submit', function (e) {
+        $('body').on( 'submit','.wpf_form', function (e) {
             e.preventDefault();
             var $form = $(this),
                     $container = $('.wpf-search-container').first(),
-                    $data = $form.serializeArray(),
-                    $result = {};
+                    data = $form.serializeArray(),
+                    result = {};
             if ($container.length === 0) {
                 $container = $('.post').first();
             }
-            for (var $i in $data) {
-                if ($.trim($data[$i].value)) {
-                    var name = $data[$i].name.replace('[]', '');
-                    if (!$result[name]) {
-                        $result[name] = $data[$i].value;
+            for (var i in data) {
+                if ($.trim(data[i].value)) {
+                    var name = data[i].name.replace('[]', '');
+					
+                    if (!result[name]) {
+                        result[name] = data[i].value;
                     }
                     else {
-                        $result[name] += ',' + $data[$i].value;
+                        result[name] += ',' + data[i].value;
                     }
                 }
             }
             if (in_scroll) {
-                $result['append'] = 1;
+               result['append'] = 1;
             }
             $form.find('input[name="wpf_page"]').val('');
             if (!$form.hasClass('wpf_form_ajax')) {
-                for (var $name in $result) {
+                for (var $name in result) {
                     var input = $form.find('input[name="' + $name + '[]"]');
                     if (input.length > 0) {
-                        input.prop({'disabled': true, 'name': ''}).filter(':checked').prop({'disabled': false, 'name': $name}).val($result[$name]);
+                        input.prop({'disabled': true, 'name': ''}).filter(':checked').prop({'disabled': false, 'name': $name}).val(result[$name]);
                     }
                 }
-                $('body').undelegate('.wpf_form', 'submit');
+                $('body').off('submit','.wpf_form');
                 $form.submit();
                 return false;
             }
 
-			// Save isotope data if masonry is enabled
-			masonryData = masonryData || $( '.products', $container ).data( 'isotope' );
-			isMasonry = isMasonry || typeof masonryData === 'object' && 'options' in masonryData;
+            // Save isotope data if masonry is enabled
+            masonryData = masonryData || $( '.products', $container ).data( 'isotope' );
+            isMasonry = isMasonry || typeof masonryData === 'object' && 'options' in masonryData;
 
             $.ajax({
                 url: $form.prop('action'),
                 type: 'POST',
-                data: $.param($result),
+                data: $.param(result),
                 beforeSend: function () {
                     $form.addClass('wpf-search-submit');
                     $container.addClass('wpf-container-wait');
@@ -128,27 +129,16 @@
                 complete: function () {
                     $form.removeClass('wpf-search-submit');
                     $container.removeClass('wpf-container-wait');
-
-					// Reload masonry
-					if( ! in_scroll && isMasonry ) {
-						var productsContainer = $( '.products', $container );
-
-						if( ! productsContainer.find( '.grid-sizer, .gutter-sizer' ).length ) {
-							productsContainer.prepend('<div class="grid-sizer"></div><div class="gutter-sizer"></div>');
-						}
-						
-						setTimeout( function() {
-							productsContainer.addClass( 'masonry-done' ).isotope( masonryData.options );
-						}, 30 );
-					}
                 },
                 success: function (resp) {
                     if (resp) {
-                        var scrollTo = $container;
+                        var scrollTo = $container,
+                            products=null;
                         $container.data('slug', $form.data('slug'));
                         if (in_scroll) {
                             resp = $(resp);
-                            var products = resp.find('.product');
+                            products = resp.find('.product');
+                            products.addClass('wpf_transient_product');
                             $('.products', $container).first().append(products);
                             var scroll = resp.find('.wpf_infinity a');
 
@@ -156,13 +146,9 @@
                                 $('.wpf_infinity a', $container).data({current: scroll.data('current'), max: scroll.data('max')});
                             }
 
-							if( isMasonry ) {
-								$( '.products', $container ).isotope( 'destroy' ).isotope( masonryData.options );;
-							}
-
                             $container.removeClass('wpf-infnitiy-scroll');
                             scrollTo = products.first();
-                            delete $result['append'];
+                            delete result['append'];
                             setTimeout(function () {
                                 in_scroll = false;
                             }, 200);
@@ -171,10 +157,37 @@
                             $container.html(resp);
                             InitPagination();
                         }
-                        if ($form.hasClass('wpf_form_scroll')) {
-                            ToScroll(scrollTo);
+                        
+                        if( isMasonry && $.fn.isotope) {
+                                var productsContainer = $( '.products', $container );
+
+                                if( ! productsContainer.find( '.grid-sizer, .gutter-sizer' ).length ) {
+                                        productsContainer.prepend('<div class="grid-sizer"></div><div class="gutter-sizer"></div>');
+                                }
+                                productsContainer.imagesLoaded().always(function(instance ){console.log(instance.elements[0]);
+                                        var p = $(instance.elements[0]);
+                                        p.addClass('masonry-done');
+                                        if(products!==null){
+                                                p.isotope( 'destroy' );
+                                        }
+                                        if(products!==null){
+                                                products.addClass('wpf_transient_end_product');
+                                        }
+                                        if ($form.hasClass('wpf_form_scroll')) {
+                                                ToScroll(scrollTo);
+                                        }
+                                        p.isotope( masonryData.options );
+
+                                });
                         }
-                        history.replaceState({}, null, '?' + decodeURIComponent($.param($result)));
+                        else if ($form.hasClass('wpf_form_scroll')) {
+                            ToScroll(scrollTo);
+                            if(products!==null){
+                                    products.addClass('wpf_transient_end_product');
+                            }
+							
+                        }
+                        history.replaceState({}, null, '?' + decodeURIComponent($.param(result)));
                         if (typeof window.wp.mediaelement != 'undefined') {
                             window.wp.mediaelement.initialize();
                         }
@@ -230,19 +243,21 @@
                 } else {
                     --$page;
                 }
-
-				var pattern = new RegExp( '(?<=paged=)[^\b\s\=]+' );
-				if( ! $page && pattern.test( element.attr( 'href' ) ) ) {
-					$page = element.attr( 'href' ).match( pattern )[0];
-				}
+                var pattern = new RegExp( '(?<=paged=)[^\b\s\=]+' );
+                if( ! $page && pattern.test( element.attr( 'href' ) ) ) {
+                        $page = element.attr( 'href' ).match( pattern )[0];
+                }
             }
 
             return $page;
         }
         if ($('.wpf_infinity_auto').length > 0) {
+            $('#load-more').remove();
             $(window).off('scroll', infinity).on('scroll', infinity);
         }
         else if ($('.wpf_infinity').length > 0) {
+            $('.wpf_infinity').closest('.wpf-hide-pagination').removeClass('wpf-hide-pagination');
+            $('#load-more').remove();
             $('.wpf-search-container').off('click').on('click', '.wpf_infinity a', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
@@ -300,9 +315,7 @@
                                 $spinner.hide();
                                 cache[$key][ term ] = data;
                                 response(data);
-                            },
-                            'json'
-                            );
+                        },'json');
 
                 },
                 select: function (event, ui) {
@@ -313,16 +326,15 @@
                     return false;
                 }
             })
-                    .focus(function () {
-                        if ($.trim($this.val()).length > 0) {
-                            $(this).autocomplete("search");
-                        }
+            .focus(function () {
+                if ($.trim($this.val()).length > 0) {
+                    $(this).autocomplete("search");
+                }
 
-                    })
-                    .autocomplete("widget").addClass("wpf_ui_autocomplete");
+            })
+            .autocomplete("widget").addClass("wpf_ui_autocomplete");
             ;
         });
-
     };
 
     var InitOrder = function () {

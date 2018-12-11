@@ -98,6 +98,15 @@ if ( ! class_exists( 'Astra_Customizer_Partials' ) ) {
 		}
 
 		/**
+		 * Render Partial Text Custom Menu Item
+		 */
+		static function _render_header_main_rt_section_button_text() {
+			$custom_button_text = astra_get_option( 'header-main-rt-section-button-text' );
+
+			return do_shortcode( $custom_button_text );
+		}
+
+		/**
 		 * Render Partial Footer Section 1 Credit
 		 */
 		static function _render_footer_sml_section_1_credit() {

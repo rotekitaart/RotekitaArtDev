@@ -1,4 +1,0 @@
-2018-11-07T09:26:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded בקובץ C:\xampp\htdocs\RotekitaArtDev\RotekitaArt\wp-includes\Requests\Transport\cURL.php בשורה 463
-
-2018-11-07T09:34:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded בקובץ C:\xampp\htdocs\RotekitaArtDev\RotekitaArt\wp-includes\class-wp-image-editor-gd.php בשורה 185
-

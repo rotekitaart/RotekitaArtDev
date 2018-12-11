@@ -72,6 +72,11 @@ if ( ! class_exists( 'CZR_BASE' ) ) :
             //remove hentry class when the current $post type is a page
             add_filter( 'post_class'                             , array( $this, 'czr_fn_maybe_remove_hentry_class' ), 20 );
 
+            // WP 5.0.0 compat. until the bug is fixed
+            // this hook fires before the customize changeset is inserter / updated in database
+            // Removing the wp_targeted_link_rel callback from the 'content_save_pre' filter prevents corrupting the changeset JSON
+            // more details in this ticket : https://core.trac.wordpress.org/ticket/45292
+            add_action( 'customize_save_validation_before'       , array( $this, 'czr_fn_remove_callback_wp_targeted_link_rel' ) );
 
             //Default images sizes
             $this -> tc_thumb_size      = array( 'width' => 270 , 'height' => 250, 'crop' => true ); //size name : tc-thumb
@@ -998,6 +1003,15 @@ if ( ! class_exists( 'CZR_BASE' ) ) :
         }
 
 
+        /**
+         * hook : customize_save_validation_before'
+         */
+        function czr_fn_remove_callback_wp_targeted_link_rel() {
+            if ( false !== has_filter( 'content_save_pre', 'wp_targeted_link_rel' ) ) {
+                remove_filter( 'content_save_pre', 'wp_targeted_link_rel' );
+            }
+        }
+
   }
 endif;
 
@@ -1179,12 +1193,16 @@ function czr_fn_register_required_plugins() {
 
 }
 
-// @filter czr_model_map
+// @filter czr_model_map => removes 'main_content' model from the map since we don't need it when using the Nimble template.
 // @see core/init.php
 function czr_fn_filter_model_map_when_nimble_template_set( $map ) {
-    if ( function_exists('\Nimble\sek_get_locale_template') ) {
-        $locale_template = \Nimble\sek_get_locale_template();
-        if ( !empty( $locale_template ) ) {
+    if ( function_exists('Nimble\sek_get_locale_template') ) {
+        $tmpl_name = \Nimble\sek_get_locale_template();
+        // when using the full nimble template, we don't need to load any Customizr model
+        // when using the mixed Nimble template ( header and footer from theme, content from Nimble), we don't need the main_content model
+        if ( 'nimble_full_tmpl_ghf.php' === $tmpl_name ) {
+            $map = array();
+        } else if ( !empty( $tmpl_name ) ) {
             $new_map = array();
             foreach ($map as $model) {
                 if ( !empty( $model['id'] ) && 'main_content' === $model['id'] )

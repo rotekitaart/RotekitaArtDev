@@ -104,7 +104,7 @@ if ( ! class_exists( 'Astra_Site_Identity_Configs' ) ) {
 					'priority'    => 5,
 					'title'       => __( 'Logo Width', 'astra' ),
 					'input_attrs' => array(
-						'min'  => 50,
+						'min'  => 0,
 						'step' => 1,
 						'max'  => 600,
 					),

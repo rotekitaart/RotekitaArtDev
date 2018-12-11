@@ -447,8 +447,8 @@ class WPF_Form {
                     'desc' => __('Descending', 'wpf')
                 );
                 $display = array(
+		    'checkbox' => __('Checkbox', 'wpf'),
                     'link' => __('Links', 'wpf'),
-                    'checkbox' => __('Checkbox', 'wpf'),
                     'radio' => __('Radio', 'wpf'),
                     'dropdown' => __('Dropdown', 'wpf'),
                     'multiselect' => __('Multi Select', 'wpf'),
@@ -509,7 +509,7 @@ class WPF_Form {
                     <div class="wpf_back_active_module_input wpf_display_as wpf_changed">
                         <?php foreach ($display as $k => $v): ?>
                             <label>
-                                <input type="radio" name="[<?php echo $type ?>][show_as]" value="<?php echo $k ?>" <?php if ((isset($module['show_as']) && $module['show_as'] === $k) || (!isset($module['show_as']) && $k === 'link')): ?>checked="checked"<?php endif; ?>  />
+                                <input type="radio" name="[<?php echo $type ?>][show_as]" value="<?php echo $k ?>" <?php if ((isset($module['show_as']) && $module['show_as'] === $k) || (!isset($module['show_as']) && $k === 'checkbox')): ?>checked="checked"<?php endif; ?>  />
                                 <?php echo $v ?>
                             </label>
                         <?php endforeach; ?>

@@ -129,7 +129,6 @@ if ( ! function_exists( 'astra_masthead_custom_nav_menu_items' ) ) :
 		if ( isset( $args->theme_location ) && ! astra_get_option( 'header-display-outside-menu' ) ) {
 
 			if ( 'primary' === $args->theme_location ) {
-
 				$markup = astra_masthead_get_menu_items();
 
 				if ( $markup ) {
