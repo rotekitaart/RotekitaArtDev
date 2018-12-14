@@ -56,6 +56,7 @@ function mymailchimp_registration_form() {
 		<div style='position: absolute; left: -5000px;' aria-hidden='true'><input type='text' name='b_504af2eaad33945776db7eaf7_71b1ed015b' tabindex='-1' value=''></div>
 		<div class='clear'><input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' class='button'></div>
 		</div>
+		<br><label for='mce-EMAIL'>We respect your privacy.</label>
 	</form>
 	</div>
 	<!--End mc_embed_signup-->";

@@ -159,18 +159,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/templates-directory.git",
-            "reference": "be218b189f9dc60e32463161567ca1b567f79019"
+            "reference": "18e8b64784457e3851bc79203e1306b6057d4d69"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/templates-directory/zipball/be218b189f9dc60e32463161567ca1b567f79019",
-            "reference": "be218b189f9dc60e32463161567ca1b567f79019",
+            "url": "https://api.github.com/repos/Codeinwp/templates-directory/zipball/18e8b64784457e3851bc79203e1306b6057d4d69",
+            "reference": "18e8b64784457e3851bc79203e1306b6057d4d69",
             "shasum": ""
         },
         "require": {
             "codeinwp/full-width-page-templates": "master"
         },
-        "time": "2018-11-12 09:48:53",
+        "time": "2018-12-12 21:50:20",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
