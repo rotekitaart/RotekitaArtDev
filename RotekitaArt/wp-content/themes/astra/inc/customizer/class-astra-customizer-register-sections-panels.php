@@ -49,7 +49,7 @@ if ( ! class_exists( 'Astra_Customizer_Register_Sections_Panels' ) ) {
 				array(
 					'name'               => 'section-container-layout',
 					'type'               => 'section',
-					'priority'           => 10,
+					'priority'           => 70,
 					'title'              => __( 'Container', 'astra' ),
 					'panel'              => 'panel-layout',
 					'description_hidden' => true,
@@ -407,7 +407,7 @@ if ( ! class_exists( 'Astra_Customizer_Register_Sections_Panels' ) ) {
 					'name'     => 'section-header-button-default',
 					'type'     => 'section',
 					'priority' => 10,
-					'title'    => __( 'Default Button', 'astra' ),
+					'title'    => __( 'Primary Header Button', 'astra' ),
 					'section'  => 'section-header-button',
 				),
 

@@ -3421,6 +3421,11 @@ body {
   font-weight: inherit;
 }
 
+.button-custom-menu-item .ast-custom-button-link .ast-custom-button:hover {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
 /* 4 - Header Main */
 /**
  *  Header Sections
